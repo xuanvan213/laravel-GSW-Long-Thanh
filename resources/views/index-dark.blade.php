@@ -106,9 +106,24 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <strong class="section-subtitle">about us</strong>
-              <h2 class="section-title section-about-title">We Are The Leader In The Architectural</h2>
-              <p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other</p>
+              <strong class="section-subtitle">Giới Thiệu</strong>
+              <h2 class="section-title section-about-title">Tên dự án:	Gem Sky World</h2>
+              <p>
+              Tọa lạc ngay cửa ngõ ra vào sân bay quốc tế Long Thành, CENTURY CITY được đánh giá hội đủ tất cả những yếu tố tiềm năng nhất cho sự gia tăng giá trị tương lai của bất động sản khi nhà đầu tư lựa chọn đặt niềm tin vào nơi đây..
+              TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ CENTURY CITY <br>
+                + Vị trí: hai mặt tiền đường 769 và đường vào cổng chính sân bay Long Thành. <br>
+                + Quy mô: 49.8ha trong đó 40% là đất thương mại dịch vụ, 2150 sản phẩm đất nền, nhà phố, biệt thự. <br>
+                + Chủ đầu tư: KIM OANH GROUP. <br>
+                + Tiện ích nội khu: Trường học, công viên cây xanh, khu thương mại dịch vụ .v.v. <br>
+                + Tiện ích liên kết: dân cư xung quanh đông đúc, đầy đủ tiện ích cơ bản như trường học, bệnh viện, khu vui chơi, giải trí, trung tâm thương mại,...<br>
+                + Hạ tầng: Đường nội khu 12 - 26 mét, vỉa hè rộng thoáng, điện âm, nước thủy cục, hệ thống thông tin liên lạc đầy đủ....<br>
+                + Pháp lý: sổ hồng riêng từng nền. <br>
+                + Thanh toán: linh hoạt chia làm nhiều đợt.<br>
+                + Giá bán: LIÊN HỆ HOTLINE CÓ GIÁ TỐT.<br>
+                + Ưu đãi: LIÊN HỆ HOTLINE CÓ GIÁ TỐT..<br>
+              Hotline chủ đầu tư: 0908.099.189 Ms Phúc<br>
+              Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
+              </p>
               <div class="experience-box">
                 <div class="experience-border"></div>
                 <div class="experience-content">
@@ -119,7 +134,7 @@
             </div>
             <div class="col-md-5 col-md-offset-1">
               <div class="dots-image">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/1-470x660.jpg">
+                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/phoi_canh.jpg">
                 <div class="dots"></div>
               </div>
             </div>
@@ -136,26 +151,26 @@
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">What We Do</div>
+                <div class="info-title">Chúng Tôi Làm Gì</div>
               </div>
             </div>
             <div class="col-md-9">
               <div class="row-services row">
                 <div class="col-service col-sm-6 col-lg-4 wow fadeInUp">
                   <span class="icon icon-apartment"></span>
-                  <h4>Architecture</h4>
-                  <p>First stages in a project are very important to understand your client´s needs. With many different tools we approach.</p>
+                  <h4>Ngành kiến trúc</h4>
+                  <p>Các giai đoạn đầu tiên trong một dự án là rất quan trọng để hiểu nhu cầu của khách hàng của bạn. Với nhiều công cụ khác nhau mà chúng tôi tiếp cận.</p>
                 </div>
                 <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                   <span class="icon icon-couch"></span>
-                  <h4>Interior Design</h4>
-                  <p>Once in the design process, we must go deeper in your project´s foundation, we need to arrive to the essence.</p>
+                  <h4>Thiết kế nội thất</h4>
+                  <p>Khi trong quá trình thiết kế, chúng tôi phải đi sâu hơn vào nền tảng dự án của bạn, chúng tôi cần phải đi đến bản chất.</p>
                 </div>
                 <div class="clearfix visible-sm visible-md"></div>
                 <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
                   <span class="icon icon-pencil-ruler"></span>
-                  <h4>Plants</h4>
-                  <p>Once in the design process, we must go deeper in your project´s foundation, we need to arrive to the essence, the roots in order.</p>
+                  <h4>Kế Hoạch</h4>
+                  <p>Một khi trong quá trình thiết kế, chúng tôi phải đi sâu hơn vào nền tảng của dự án của bạn, chúng tôi cần phải đi đến bản chất, gốc rễ theo thứ tự.</p>
                 </div>
               </div>
             </div>
@@ -170,13 +185,13 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
-               <h2 class="section-title">Latest Projects</h2>
+               <h2 class="section-title">Khu đô thị Gem SkyWorld </h2>
             </div>        
             <div class="col-lg-7">
               <div class="filter-content">
                 <ul class="filter-carousel filter pull-lg-right js-filter-carousel">
-                  <li class="active"><a href="#" class="all" data-filter="*">All</a></li>
-                  <li><a href="#" data-filter=".building">Building </a></li>
+                  <li class="active"><a href="#" class="all" data-filter="*">TIỆN ÍCH QUỐC TẾ 5SAO</a></li>
+                  <li><a href="#" data-filter=".building">THIẾT KẾ & MẶT BẰNG</a></li>
                   <li><a href="#" data-filter=".interior-exterior">Interior & Exterior </a></li>
                 </ul>
               </div>
@@ -186,63 +201,59 @@
         <div class="project-carousel owl-carousel">
 
           <!-- Project Carousel Item 1 -->
-          <a href="#project1" class="project-item item-shadow popup-with-zoom-anim building">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/1-426x574.jpg">
+          <a href="#project1" class="project-item item-shadow popup-with-zoom-anim building" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/cong_vien.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Công viên<br>Sky Park</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
           
           <!-- Project Carousel Item 2 -->
-          <a href="#project2" class="project-item item-shadow popup-with-zoom-anim building">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/2-426x574.jpg">
+          <a href="#project1" class="project-item item-shadow popup-with-zoom-anim building" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/cong_vien.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Rectangular<br>House Near<br>Italy</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Khu công viên<br>Sky Park<br>tại nội khu dự án</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
           
           <!-- Project Carousel Item 3 -->
           <a href="#project3" class="project-item item-shadow popup-with-zoom-anim building">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/3-426x574.jpg">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/quang_truong.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Milko<br>Co-Working<br>Building</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Quảng trường <br>Sky Park <br>tại nội khu dự án</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 4 -->
           <a href="#project4" class="project-item item-shadow popup-with-zoom-anim building">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/4-426x574.jpg">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/khu_tre_em.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Redesign<br>Interior For<br>Villa</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Khu vui chơi <br>trẻ em</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
+
           </a>
 
           <!-- Project Carousel Item 5 -->
           <a href="#project5" class="project-item item-shadow popup-with-zoom-anim interior-exterior">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/5-426x574.jpg">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/pho_binh_minh.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Wooden<br>Hozirontal<br>Villa</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Phố Bình Minh</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 6 -->

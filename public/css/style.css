@@ -1297,6 +1297,12 @@ a.brand:focus{
 .project-item img{
   width:100%;
 }
+.project-item .link-arrow{
+  color: #000 !important;
+}
+.project-item .link-arrow:hover{
+  background: #01e1ffb2;
+}
 
 .item-shadow{
   position: relative;
