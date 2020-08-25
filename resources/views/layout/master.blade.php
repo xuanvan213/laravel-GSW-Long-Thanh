@@ -22,13 +22,13 @@
   <link href="/css/dark.css" rel="stylesheet" media="screen">
 
   <meta name="keywords" content="Long Thành, du an gem sky world, du an gem sky world Long Thành, du an sân bay Long Thành, du an nhà phố Long Thành, dự án nhà phố, dự án nhà phố gem sky world, nhà phố Long Thành, nhà phố sân bay Long Thành ">
-    <meta name="description" content="Dự án Gem Sky World Long Thành được thiết kế thông minh, quy hoạch hiện đại, đồng bộ theo chuẩn quốc tế nhằm hướng đến trở thành khu đô thị thương mại giải trí sôi động và sầm uất hàng đầu Long Thành - Tâm điểm của vùng kinh tế trọng điểm phía Nam.Đường chính trung tâm rộng 34m dài 2km với 6 làn xe kết nối thông minh cùng các tuyến đường nội khu khác tạo nên hệ thống giao thông liền mạch, liên thông với Quốc lộ 51 và hệ thống các đường cao tốc xung quanh.Bên cạnh đó, dự án được ưu tiên đầu tư hệ thống hạ tầng điện, chiếu sáng, cấp thoát nước, viễn thông đầy đủ đến từng ngôi nhà."/>
+    <meta name="description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư."/>
 
     <meta property="og:title" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" /> 
     <meta property="og:type" content="article" /> 
     <meta property="og:url" content="" /> 
     <meta property="og:image" content="/images/brand.jpg" /> 
-    <meta property="og:description" content="Dự án Gem Sky World Long Thành được thiết kế thông minh, quy hoạch hiện đại, đồng bộ theo chuẩn quốc tế nhằm hướng đến trở thành khu đô thị thương mại giải trí sôi động và sầm uất hàng đầu Long Thành - Tâm điểm của vùng kinh tế trọng điểm phía Nam.Đường chính trung tâm rộng 34m dài 2km với 6 làn xe kết nối thông minh cùng các tuyến đường nội khu khác tạo nên hệ thống giao thông liền mạch, liên thông với Quốc lộ 51 và hệ thống các đường cao tốc xung quanh.Bên cạnh đó, dự án được ưu tiên đầu tư hệ thống hạ tầng điện, chiếu sáng, cấp thoát nước, viễn thông đầy đủ đến từng ngôi nhà." /> 
+    <meta property="og:description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư." /> 
     <meta property="og:site_name" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" />
     <meta name="twitter:card" content="">
 </head>
