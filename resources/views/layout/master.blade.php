@@ -20,6 +20,17 @@
   <!-- Styles -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
   <link href="/css/dark.css" rel="stylesheet" media="screen">
+
+  <meta name="keywords" content="Long Thành, du an gem sky world, du an gem sky world Long Thành, du an sân bay Long Thành, du an nhà phố Long Thành, dự án nhà phố, dự án nhà phố gem sky world, nhà phố Long Thành, nhà phố sân bay Long Thành ">
+    <meta name="description" content="Dự án Gem Sky World Long Thành được thiết kế thông minh, quy hoạch hiện đại, đồng bộ theo chuẩn quốc tế nhằm hướng đến trở thành khu đô thị thương mại giải trí sôi động và sầm uất hàng đầu Long Thành - Tâm điểm của vùng kinh tế trọng điểm phía Nam.Đường chính trung tâm rộng 34m dài 2km với 6 làn xe kết nối thông minh cùng các tuyến đường nội khu khác tạo nên hệ thống giao thông liền mạch, liên thông với Quốc lộ 51 và hệ thống các đường cao tốc xung quanh.Bên cạnh đó, dự án được ưu tiên đầu tư hệ thống hạ tầng điện, chiếu sáng, cấp thoát nước, viễn thông đầy đủ đến từng ngôi nhà."/>
+
+    <meta property="og:title" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" /> 
+    <meta property="og:type" content="article" /> 
+    <meta property="og:url" content="" /> 
+    <meta property="og:image" content="/images/brand.jpg" /> 
+    <meta property="og:description" content="Dự án Gem Sky World Long Thành được thiết kế thông minh, quy hoạch hiện đại, đồng bộ theo chuẩn quốc tế nhằm hướng đến trở thành khu đô thị thương mại giải trí sôi động và sầm uất hàng đầu Long Thành - Tâm điểm của vùng kinh tế trọng điểm phía Nam.Đường chính trung tâm rộng 34m dài 2km với 6 làn xe kết nối thông minh cùng các tuyến đường nội khu khác tạo nên hệ thống giao thông liền mạch, liên thông với Quốc lộ 51 và hệ thống các đường cao tốc xung quanh.Bên cạnh đó, dự án được ưu tiên đầu tư hệ thống hạ tầng điện, chiếu sáng, cấp thoát nước, viễn thông đầy đủ đến từng ngôi nhà." /> 
+    <meta property="og:site_name" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" />
+    <meta name="twitter:card" content="">
 </head>
 <body>
 
@@ -55,9 +66,9 @@
           <li>
             <a href="#projects">Dự Án</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#clients">Khách Hàng</a>
-          </li>
+          </li> -->
           <li>
             <a href="#team">Nhà Đầu Tư</a>
           </li>

@@ -31,7 +31,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600;">
-                  <a href="#project6" class="popup-with-zoom-anim link-arrow"> Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="#phohoanghon" class="popup-with-zoom-anim link-arrow"> Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
@@ -61,7 +61,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600;">
-                  <a href="#project7" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="#truongquocte" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
@@ -91,17 +91,17 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600; ">
-                  <a href="#project4" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="#khuvuichoi" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
           </ul>
         </div>
       </div>
-      @endsection
+    @endsection
 
       <!-- Section About -->
-      @section('about')
+    @section('about')
       <section id="about" class="section section-about">
         <div class="container">
           <div class="row">
@@ -190,117 +190,237 @@
             <div class="col-lg-7">
               <div class="filter-content">
                 <ul class="filter-carousel filter pull-lg-right js-filter-carousel">
-                  <li class="active"><a href="#" class="all" data-filter="*">TIỆN ÍCH QUỐC TẾ 5SAO</a></li>
-                  <li><a href="#" data-filter=".building">THIẾT KẾ & MẶT BẰNG</a></li>
-                  <li><a href="#" data-filter=".interior-exterior">Interior & Exterior </a></li>
+                  <li class="active"><a href="#" class="all" data-filter="*">Tổng Quan Gem Sky World</a></li>
+                  <li><a href="#" data-filter=".tien-ich">Tiện Ích 5 Sao</a></li>
+                  <li><a href="#" data-filter=".building">Phối Cảnh & Mặt Bằng </a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="project-carousel owl-carousel">
 
+         <!-- tiện ích 5 sao -->
+        <div class="project-carousel owl-carousel">         
           <!-- Project Carousel Item 1 -->
-          <a href="#project1" class="project-item item-shadow popup-with-zoom-anim building" >
+          <a href="#congvien" class="project-item item-shadow popup-with-zoom-anim tien-ich" >
             <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/cong_vien.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
                 <h3 class="project-title">Công viên<br>Sky Park</h3>
               </div>
             </div>
-            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
           
           <!-- Project Carousel Item 2 -->
-          <a href="#project1" class="project-item item-shadow popup-with-zoom-anim building" >
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/cong_vien.jpg">
+          <a href="#khucongvien" class="project-item item-shadow popup-with-zoom-anim tien-ich" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/cong_vien_night.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
                 <h3 class="project-title">Khu công viên<br>Sky Park<br>tại nội khu dự án</h3>
               </div>
             </div>
-            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
           
           <!-- Project Carousel Item 3 -->
-          <a href="#project3" class="project-item item-shadow popup-with-zoom-anim building">
+          <a href="#quangtruong" class="project-item item-shadow popup-with-zoom-anim tien-ich">
             <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/quang_truong.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
                 <h3 class="project-title">Quảng trường <br>Sky Park <br>tại nội khu dự án</h3>
               </div>
             </div>
-            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 4 -->
-          <a href="#project4" class="project-item item-shadow popup-with-zoom-anim building">
+          <a href="#khuvuichoi" class="project-item item-shadow popup-with-zoom-anim tien-ich">
             <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/khu_tre_em.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
                 <h3 class="project-title">Khu vui chơi <br>trẻ em</h3>
               </div>
             </div>
-            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
-
           </a>
 
           <!-- Project Carousel Item 5 -->
-          <a href="#project5" class="project-item item-shadow popup-with-zoom-anim interior-exterior">
+          <a href="#phobinhminh" class="project-item item-shadow popup-with-zoom-anim tien-ich">
             <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/pho_binh_minh.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
                 <h3 class="project-title">Phố Bình Minh</h3>
               </div>
             </div>
-            <span class="link-arrow">Xem chi Tiết <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 6 -->
-          <a href="#project6" class="project-item item-shadow popup-with-zoom-anim interior-exterior">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/6-426x574.jpg">
+          <a href="#phohoanghon" class="project-item item-shadow popup-with-zoom-anim tien-ich">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/pho_hoang_hon.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Small<br>House Near<br>Wroclaw</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Phố Hoàng Hôn</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 7 -->
-          <a href="#project7" class="project-item item-shadow popup-with-zoom-anim interior-exterior">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/7-426x574.jpg">
+          <a href="#truongquocte" class="project-item item-shadow popup-with-zoom-anim tien-ich">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/truong_hoc.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">The luxury<br> residence in<br> forest</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Trường Quốc Tế</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
           </a>
 
           <!-- Project Carousel Item 8 -->
-          <a href="#project8" class="project-item item-shadow popup-with-zoom-anim interior-exterior">
-            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/projects/8-426x574.jpg">
+          <a href="#duquay" class="project-item item-shadow popup-with-zoom-anim tien-ich">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/du_quay_khong_lo.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
-                <h3 class="project-title">Cubic<br>Inter Mesuem<br>In Rome</h3>
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                <h3 class="project-title">Đu Quay<br>Khổng Lồ</h3>
               </div>
             </div>
-            <span class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></span>
+          </a>
+          
+          <a href="#tienich-nk" class="project-item item-shadow popup-with-zoom-anim tien-ich" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/tien_ich_ngoai_khu.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Tiện Ích<br>Ngoại Khu</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- Thiết kế mặt bằng -->
+          <!-- mặt bằng tong-the -->
+          <a href="#mb-tong-the" class="project-item item-shadow popup-with-zoom-anim building" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/mb_tong_the.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Mặt bằng Tổng thể <br> Khu đô thị<br> Gem Sky World</h3>
+              </div>
+            </div>
+          </a>
+          
+          <!-- mặt bằng Phan khu  -->
+          <a href="#mb-phan-khu" class="project-item item-shadow popup-with-zoom-anim building" >
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/mb_phan_khu.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Mặt bằng Phân khu<br> Garnet Town & Pearl Town</h3>
+              </div>
+            </div>
+          </a>
+          
+          <!-- mặt bằng Item 3 -->
+          <a href="#truc-chinh-kdt" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/truc_chinh_khu_do_thi.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Trục chính Dự án <br>Khu đô thị <br>Gem SkyWorld </h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- mặt bằng Item 4 -->
+          <a href="#shophouse" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/nha_pho_thuong_mai.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Nhà phố Thương mại <br>Shophouse Gem Sky World</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- Pmặt bằng Item 5 -->
+          <a href="#khu-nha-1-mai" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/nha_pho_1_mai.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Khu Nhà phố liên kế <br>1 mái</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- mặt bằng Item 6 -->
+          <a href="#khu-nha-2-mai" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/nha_pho_lien_ke_2_mai.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Khu Nhà phố liên kế <br>2 mái</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- mặt bằng Item 7 -->
+          <a href="#nha-pho-lien-ke" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/nha-pho-lien-ke-gem-skyworld.jpg">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <h3 class="project-title">Phối cảnh Nhà phố <br>liên kê</h3>
+              </div>
+            </div>
+          </a>
+
+          <!-- mặt bằng Item 8 -->
+          <a href="#pc-shophouse" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/khu-shophouse-thuong-mai-gem-sky-world.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title">Phối cảnh Nhà phố <br>thương mại<br> Shophouse</h3>
+                </div>
+              </div>
+          </a>
+           <!-- khu biet thu song lap -->
+           <a href="#kbt-song-lap" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/khu-biet-thu-song-lap-gem-sky-world.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title">Phối cảnh Khu Biệt thự<br> Song lập</h3>
+                </div>
+              </div>
+          </a>
+          <!-- khu biet thu don lap -->
+          <a href="#kbt-song-lap" class="project-item item-shadow popup-with-zoom-anim building">
+            <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="img-responsive" src="/images/khu-biet-thu-don-lap-gem-sky-world.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title">Phối cảnh Khu Biệt thự<br> Đơn lập</h3>
+                </div>
+              </div>
           </a>
         </div>
 
-        <!-- Project Modal Dialog 1 -->
-        <div id="project1" class="container zoom-anim-dialog mfp-hide">
+
+        <!-- Project Modal Công Viên -->
+        <div id="congvien" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/1-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/cong_vien.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Triangle Concrete House On Lake</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
+              <h3 class="project-detail-title">Công viên Sky Park</h3>
+              <p class="project-detail-text">việc bố trí các tiện ích nội khu khoa học, phát triển mạnh về mảng cây xanh để cung cấp lượg không khí dồi dào cũng được chủ đầu tư đặc biệt quan tâm. Dự án Gem Sky World mang đến nguồn không khí trong lành, không khói bụi và lối sống hoà nhập với thiên nhiên.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal Khu công viên -->
+        <div id="khucongvien" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu_cong_vien.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Khu công viên Sky Park tại nội khu dự án</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal quãng trường -->
+        <div id="quangtruong" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/quang_truong.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Quảng trường Sky Park tại nội khu dự án</h3>
+              <p class="project-detail-text"></p>
+              <!-- <ul class="project-detail-list text-white">
                 <li>
                   <span class="left">Clients:</span>
                   <span class="right">Ethan Hunt, John Doe</span>
@@ -321,48 +441,103 @@
                   <span class="left">Budget:</span>
                   <span class="right">$1 200 000</span>
                 </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              </ul> -->
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 2 -->
-        <div id="project2" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project Modal khu vui chơi -->
+        <div id="khuvuichoi" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/2-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu_tre_emjpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Rectangular House Near Italy</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
+              <h3 class="project-detail-title">Khu vui chơi trẻ em</h3>
+              <p class="project-detail-text"></p>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal phố bình minh -->
+        <div id="phobinhminh" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/pho_binh_minh.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Phố Bình Minh</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal phố hoàng hôn -->
+        <div id="phohoanghon" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/pho_hoang_hon.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Phố Hoàng Hôn</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal Trường quốc tế -->
+        <div id="truongquocte" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/truong_hoc.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Trường học</h3>
+              <p class="project-detail-text">              
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal Đu Quay khổng lồ -->
+        <div id="duquay" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/du_quay_khong_lo.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Đu quay khổng lồ</h3>
+              <p class="project-detail-text"></p>             
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal tiện ích ngoại khu liên kết -->
+        <div id="tienich-nk" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/tien_ich_ngoai_khu.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Tiện ích liên kết vùng Dự án Gem Sky World</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Modal mặt bằng tổng thể -->
+        <div id="mb-tong-the" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/mb_tong_thejpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Mặt bằng Tổng thể toàn Khu đô thị Gem Sky World</h3>
+              <p class="project-detail-text">Khu vực xây dựng được xây thành 6 phân khu chính bao gồm</p>
               <ul class="project-detail-list text-white">
                 <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
+                 Khu công viên xanh là nơi để thư giãn sau những chuỗi thời gian làm việc vất vả, được bao phủ bởi nhiều cây cối để cung cấp lượng oxy dồi dào cho người dân
                 </li>
                 <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
+                  Khu phố thương mại với các gian hàng đa dạng sản phẩm, là nơi diễn ra hoạt động mua sắm, shopping, trải nghiệm dịch vụ hàng ngày
                 </li>
                 <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
+                  Khu nhà ở liền kề dành cho các hộ dân sinh hoạt
                 </li>
                 <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
+                Khu biệt thự với thiết kế sân vườn thoáng đãng và một phong cách sống đậm chất thượng lưu
                 </li>
                 <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
+                  Khu thương mại – dịch vụ đi kèm các công trình hạ tầng kỹ thuật
+                </li>
+                <li>
+                  Khu dân cư với sức chứa lên đến hơn 18.000 người dân, tổng số sản phẩm cung ứng ra thị trường lên đến 4.000 căn hộ.               
                 </li>
               </ul>
               <div class="project-detail-meta">
@@ -379,355 +554,111 @@
           </div>
         </div>
 
-        <!-- Project Modal Dialog 3 -->
-        <div id="project3" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal mặt bằng phân khu -->
+        <div id="mb-phan-khu" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/3-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/mb_phan_khu.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Milko Co-Working Building</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Mặt bằng Phân khu Garnet Town & Pearl Town dự án Gem Sky World</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 4 -->
-        <div id="project4" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal trục chính khu đô thị -->
+        <div id="truc-chinh-kdt" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/4-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/truc_chinh_khu_do_thi.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Redesign Interior For Villa</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Trục chính Dự án Khu đô thị Gem SkyWorld Long Đức Long Thành Đồng Nai</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 5 -->
-        <div id="project5" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal shophouse-->
+        <div id="shophouse" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/5-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_pho_thuong_mai2.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Wooden Hozirontal Villa</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Nhà phố Thương mại Shophouse Gem Sky World Đồng Nai</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 6 -->
-        <div id="project6" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal khu nhà 1 mái-->
+        <div id="khu-nha-1-mai" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/6-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_pho_1_mai.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Small House Near Wroclaw</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Phối cảnh Khu Nhà phố liên kế 1 mái tại dự án Gem Sky World</h3>
+              <p class="project-detail-text"></p>/
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 7 -->
-        <div id="project7" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal khu nhà 2 mái-->
+        <div id="khu-nha-2-mai" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/7-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_pho_lien_ke_2_mai.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">The Luxury Residence In Forest</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Nhà phố liên kế 2 mái Gem Sky World Long Thành</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
 
-        <!-- Project Modal Dialog 8 -->
-        <div id="project8" class="container zoom-anim-dialog mfp-hide">
+        <!-- Project modal nhà phố liên kế-->
+        <div id="nha-pho-lien-ke" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/projects/8-680x680.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha-pho-lien-ke-gem-skyworld.jpg"></div>
             <div class="col-lg-4">
-              <h3 class="project-detail-title">Cubic Inter Mesuem In Rome</h3>
-              <p class="project-detail-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in.</p>
-              <ul class="project-detail-list text-white">
-                <li>
-                  <span class="left">Clients:</span>
-                  <span class="right">Ethan Hunt, John Doe</span>
-                </li>
-                <li>
-                  <span class="left">Completion:</span>
-                  <span class="right">February 5th, 2019</span>
-                </li>
-                <li>
-                  <span class="left">Project Type:</span>
-                  <span class="right">Villa, Residence</span>
-                </li>
-                <li>
-                  <span class="left">Architects:</span>
-                  <span class="right">Logan Cee, Paul</span>
-                </li>
-                <li>
-                  <span class="left">Budget:</span>
-                  <span class="right">$1 200 000</span>
-                </li>
-              </ul>
-              <div class="project-detail-meta">
-                <span class="left text-white hidden-xs pull-sm-left">Share:</span>
-                <div class="social-list pull-sm-right">
-                  <a href="" class="icon ion-social-twitter"></a>
-                  <a href="" class="icon ion-social-facebook"></a>
-                  <a href="" class="icon ion-social-googleplus"></a>
-                  <a href="" class="icon ion-social-linkedin"></a>
-                  <a href="" class="icon ion-social-dribbble-outline"></a>
-                </div>
-              </div>
+              <h3 class="project-detail-title">Phối cảnh Nhà phố liên kế</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
-      </section>
-      @endsection
 
-      <!-- Section Clients -->
-      @section('clients')
-      <section id="clients" class="section-clients section bg-dots">
-        <div class="container">
-          <h2 class="section-title">From Great Our Clients</h2>
-          <div class="client-carousel owl-carousel">
-            <div class="client-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="client-img" src="/images/clients/1-92x92.jpg">
-              <div class="client-box">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="image-quote" src="/images/image-icons/icon-quote.png">
-                <div class="client-title">
-                  <span class="client-name">Adam Stone</span> 
-                  <span class="client-company">/ CEO at Google INC</span>
-                </div>
-                <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-              </div>
-            </div>
-            <div class="client-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="client-img" src="/images/clients/2-92x92.jpg">
-              <div class="client-box">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="image-quote" src="/images/image-icons/icon-quote.png">
-                <div class="client-title">
-                  <span class="client-name">Anabella Kleva </span> 
-                  <span class="client-company">/ Managerment at Envato</span>
-                </div>
-                <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-              </div>
-            </div>
-            <div class="client-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="client-img" src="/images/clients/1-92x92.jpg">
-              <div class="client-box">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="image-quote" src="/images/image-icons/icon-quote.png">
-                <div class="client-title">
-                  <span class="client-name">Adam Stone</span> 
-                  <span class="client-company">/ CEO at Google INC</span>
-                </div>
-                <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup. Sed elit quam, iaculis sed semper sit amet udin vitae nibh</p>
-              </div>
-            </div>
-            <div class="client-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="client-img" src="/images/clients/2-92x92.jpg">
-              <div class="client-box">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="image-quote" src="/images/image-icons/icon-quote.png">
-                <div class="client-title">
-                  <span class="client-name">Adam Stone</span> 
-                  <span class="client-company">/ CEO at Google INC</span>
-                </div>
-                <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae nibh. at magna akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-              </div>
-            </div>
-          </div>
-          <div class="partner-carousel owl-carousel">
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/1.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/2.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/3.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/4.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/5.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/1.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/2.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/3.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/4.png">
-            </div>
-            <div class="partner-carousel-item">
-              <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/partners/white/5.png">
+        <!-- Project modal phối cảnh shophouse-->
+        <div id="pc-shophouse" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/imageskhu-shophouse-thuong-mai-gem-sky-world.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Phối cảnh Nhà phố thương mại Shophouse tại dự án</h3>
+              <p class="project-detail-text"></p>
             </div>
           </div>
         </div>
+
+        <!-- Project modal khu biệt thự song lập -->
+        <div id="kbt-song-lap" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu-biet-thu-song-lap-gem-sky-world.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Phối cảnh Khu Biệt thự Song lập Gem Sky World</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project modal khu biệt thự đơn lập -->
+        <div id="kbt-don-lap" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu-biet-thu-don-lap-gem-sky-world.jpg"></div>
+            <div class="col-lg-4">
+              <h3 class="project-detail-title">Phối cảnh Khu Biệt thự Đơn lập Gem Sky World</h3>
+              <p class="project-detail-text"></p>
+            </div>
+          </div>
+        </div>
+
+
       </section>
       @endsection
 
       <!-- Section Team -->
-      @section('team')
+      <!-- @section('team')
       <section id="team" class="section">
         <div class="container">
           <div class="row">
@@ -844,7 +775,7 @@
           </div>
         </div>
       </section>
-      @endsection
+      @endsection -->
 
       <!-- Section Contacts -->
       @section('contacts')
