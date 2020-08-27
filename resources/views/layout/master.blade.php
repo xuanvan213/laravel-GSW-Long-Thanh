@@ -5,9 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="DỰ ÁN KHU ĐÔ THỊ CENTURY CITY">
   <meta name="author" content="Paul">
+  <meta name="keywords" content="Long Thành, du an gem sky world, du an gem sky world Long Thành, du an sân bay Long Thành, du an nhà phố Long Thành, dự án nhà phố, dự án nhà phố gem sky world, nhà phố Long Thành, nhà phố sân bay Long Thành ">
+    <meta name="description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư."/>
+    <meta name="author" content="FTC Joint Stock Company">
+    <meta name="image" content="/images/brand.jpg">
+
+
+  <meta property="og:title" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" /> 
+    <meta property="og:type" content="article" /> 
+    <meta property="og:url" content="" /> 
+    <meta property="og:image" content="/images/brand.jpg" /> 
+    <meta property="og:description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư." /> 
+    <meta property="og:site_name" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" />
+    <meta property="og:image:url" content="/images/brand.jpg">
+    <meta property="og:image:alt" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
+    <meta name="twitter:title" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
+    <meta name="twitter:description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư.">
+    <meta name="twitter:image" content="/images/brand.jpg">
+    <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicons -->
-  <link rel="shortcut icon" href="/images/brand.png">
+  <link rel="shortcut icon" sizes="196x196" href="/images/brand.png">
   <link rel="apple-touch-icon" href="/images/brand.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/brand.png">
   <link rel="apple-touch-icon" sizes="114x114" href="/images/brand.png">
@@ -21,17 +39,10 @@
   <link href="/css/style.css" rel="stylesheet" media="screen">
   <link href="/css/dark.css" rel="stylesheet" media="screen">
 
-  <meta name="keywords" content="Long Thành, du an gem sky world, du an gem sky world Long Thành, du an sân bay Long Thành, du an nhà phố Long Thành, dự án nhà phố, dự án nhà phố gem sky world, nhà phố Long Thành, nhà phố sân bay Long Thành ">
-    <meta name="description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư."/>
-    <meta name="author" content="FTC Joint Stock Company">
+
+
     
-    <meta property="og:title" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" /> 
-    <meta property="og:type" content="article" /> 
-    <meta property="og:url" content="" /> 
-    <meta property="og:image" content="/images/brand.jpg" /> 
-    <meta property="og:description" content="Gem Sky World là Dự án Khu đô thị 92 Ha Long Thành do Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Công ty con của Tập Đoàn Đất Xanh Group) làm chủ đầu tư. Dự là có quy mô 92,2 ha tọa lạc lại mặt tiền đường Quốc lộ 51, xã Long Đức, huyện Long Thành, tỉnh Đồng Nai. Dự án Khu đô thị Thương mại Giải trí Gem Sky World với các hạng mục chính như: Đất nền – Nhà ở liên kế có sân vườn – Nhà phố thượng mại Shophouse – Biệt thự Song lập – Biệt thự Đơn lập & Căn hộ chung cư." /> 
-    <meta property="og:site_name" content="DỰ ÁN GEM SKY WORLD LONG THÀNH" />
-    <meta name="twitter:card" content="">
+    
 </head>
 <body>
 
@@ -65,13 +76,13 @@
             <a href="#about">Giới Thiệu</a>
           </li>
           <li>
-            <a href="#projects">Dự Án</a>
+            <a href="#projects">Thư Viện</a>
           </li>
           <!-- <li>
             <a href="#clients">Khách Hàng</a>
           </li> -->
           <li>
-            <a href="#team">Nhà Đầu Tư</a>
+            <a href="#status">Tiến Độ</a>
           </li>
           <li>
             <a href="#contacts">Liên Hệ</a>
@@ -134,13 +145,13 @@
             <a href="#about">Giới Thiệu</a>
           </li>
           <li>
-            <a href="#projects">Dự Án</a>
+            <a href="#projects">Thư Viện</a>
           </li>
           <li>
-            <a href="#clients">Khách Hàng</a>
+            <a href="#house-template">Căn Hộ Mẫu</a>
           </li>
           <li>
-            <a href="#team">Nhà Đầu Tư</a>
+            <a href="#status">Tiến Độ</a>
           </li>
           <li>
             <a href="#contacts">Liên Hệ</a>
@@ -174,9 +185,11 @@
       @yield('clients')
  
 
-      <!-- Section Team -->
-      @yield('team')
- 
+    <!-- Section status -->
+    @yield('house-template')
+
+      <!-- Section status -->
+      @yield('status')
 
       <!-- Section Contacts -->
       @yield('contacts')
@@ -187,7 +200,7 @@
     <footer id="footer" class="footer section"> 
       <div class="footer-flex">
         <div class="flex-item">
-          <a class="brand pull-left" href="#">
+          <a class="brand pull-left" href="anzbds.com">
             <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="images/brand-white.png">
             <div class="brand-info">
               <div class="brand-name">Gem Sky Work</div>

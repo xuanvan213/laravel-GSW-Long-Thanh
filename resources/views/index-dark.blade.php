@@ -124,13 +124,6 @@
               Hotline chủ đầu tư: 0908.099.189 Ms Phúc<br>
               Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
               </p>
-              <div class="experience-box">
-                <div class="experience-border"></div>
-                <div class="experience-content">
-                  <div class="experience-number">đang cập nhật</div>
-                  <div class="experience-info">Tiến Độ<br>Xây Dựng</div>
-                </div>
-              </div>
             </div>
             <div class="col-md-5 col-md-offset-1">
               <div class="dots-image">
@@ -184,15 +177,10 @@
       <section id="projects" class="section-projects section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
-               <h2 class="section-title">Khu đô thị Gem SkyWorld </h2>
-            </div>        
-            <div class="col-lg-7">
+            <div class="col-lg-12">
               <div class="filter-content">
-                <ul class="filter-carousel filter pull-lg-right js-filter-carousel">
-                  <li class="active"><a href="#" class="all" data-filter="*">Tổng Quan Gem Sky World</a></li>
-                  <li><a href="#" data-filter=".tien-ich">Tiện Ích 5 Sao</a></li>
-                  <li><a href="#" data-filter=".building">Phối Cảnh & Mặt Bằng </a></li>
+                <ul class="filter-carousel filter pull-lg-left js-filter-carousel">
+                  <li class="active"><h2 data-filter="*">THƯ VIỆN</h2></li>
                 </ul>
               </div>
             </div>
@@ -389,7 +377,6 @@
               </div>
           </a>
         </div>
-
 
         <!-- Project Modal Công Viên -->
         <div id="congvien" class="container zoom-anim-dialog mfp-hide">
@@ -657,9 +644,88 @@
       </section>
       @endsection
 
+      @section('house-template')
+      <section id="house-template" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="section-info">
+                <div class="title-hr wow fadeInLeft"></div>
+                <div class="info-title">Căn Hộ Mẫu</div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row-team row">
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn">
+                  <div class="team-profile">
+                    <a href="#nha-mau1" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_01.jpg"> </a>                                   
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <a href="#nha-mau2" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_02.jpg"> </a>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                  <div class="team-profile">
+                    <a href="#nha-mau3" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_03.jpg"> </a>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn">
+                  <div class="team-profile">
+                    <a href="#nha-mau4" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_04.jpg"> </a>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <a href="#nha-mau5" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_05.jpg"> </a>
+                  </div>
+                </div>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <a href="#nha-mau6" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/nha_mau_06.jpg"> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="nha-mau1" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_01.jpg"></div>
+          </div>
+        </div>
+        <div id="nha-mau2" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_02.jpg"></div>
+          </div>
+        </div>
+        <div id="nha-mau3" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_03.jpg"></div>
+          </div>
+        </div>
+        <div id="nha-mau4" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_04.jpg"></div>
+          </div>
+        </div>
+        <div id="nha-mau5" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_05.jpg"></div>
+          </div>
+        </div>
+        <div id="nha-mau6" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/nha_mau_06.jpg"></div>
+          </div>
+        </div>
+      </section>
+      @endsection
+
       <!-- Section Team -->
-      @section('team')
-      <section id="team" class="section">
+      @section('status')
+      <section id="status" class="section">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
@@ -737,10 +803,13 @@
       </section>
       @endsection
 
+      
       <!-- Section Contacts -->
       @section('contacts')
       <section id="contacts">
-        <div id="map" class="map"></div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4660.273963585806!2d106.71930245245117!3d10.826025780571827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752881fbae4f29%3A0xd969149038055e1a!2zNDEgxJDGsOG7nW5nIFPhu5EgMjAsIEhp4buHcCBCw6xuaCBDaMOhbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1595145522688!5m2!1svi!2s" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
         <div class="section bg-dots">
           <section>
             <div class="container">
