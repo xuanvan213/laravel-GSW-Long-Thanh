@@ -107,7 +107,7 @@
           <div class="row">
             <div class="col-md-6">
               <strong class="section-subtitle">Giới Thiệu</strong>
-              <h2 class="section-title section-about-title">Tên dự án:	Gem Sky World</h2>
+              <h2 class="section-title section-about-title">Gem Sky World</h2>
               <p>
               Tọa lạc ngay cửa ngõ ra vào sân bay quốc tế Long Thành, CENTURY CITY được đánh giá hội đủ tất cả những yếu tố tiềm năng nhất cho sự gia tăng giá trị tương lai của bất động sản khi nhà đầu tư lựa chọn đặt niềm tin vào nơi đây..
               TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ CENTURY CITY <br>
@@ -127,8 +127,8 @@
               <div class="experience-box">
                 <div class="experience-border"></div>
                 <div class="experience-content">
-                  <div class="experience-number">26</div>
-                  <div class="experience-info">Years<br>Experience<br>Working</div>
+                  <div class="experience-number">đang cập nhật</div>
+                  <div class="experience-info">Tiến Độ<br>Xây Dựng</div>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">Chúng Tôi Làm Gì</div>
+                <div class="info-title">Tiện ích của dự án</div>
               </div>
             </div>
             <div class="col-md-9">
@@ -449,7 +449,7 @@
         <!-- Project Modal khu vui chơi -->
         <div id="khuvuichoi" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu_tre_emjpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu_tre_em.jpg"></div>
             <div class="col-lg-4">
               <h3 class="project-detail-title">Khu vui chơi trẻ em</h3>
               <p class="project-detail-text"></p>
@@ -658,124 +658,84 @@
       @endsection
 
       <!-- Section Team -->
-      <!-- @section('team')
+      @section('team')
       <section id="team" class="section">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">Meet Our Team</div>
+                <div class="info-title">TIẾN ĐỘ THI CÔNG DỰ ÁN</div>
               </div>
             </div>
             <div class="col-md-9">
               <div class="row-team row">
                 <div class="col-team col-xs-6 col-md-4 wow fadeIn">
                   <div class="team-profile">
-                    <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/team/1-270x270.jpg">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alex Ferguson</h6>
-                          <div class="team-spec">CEO Founder</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
+                    <a href="#tien-do1" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_01.jpg"> </a>                                   
                   </div>
                 </div>
                 <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                   <div class="team-profile">
-                    <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/team/2-270x270.jpg">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alex Ferguson</h6>
-                          <div class="team-spec">CEO Founder</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
+                    <a href="#tien-do2" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_02.jpg"> </a>
                   </div>
                 </div>
                 <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
                   <div class="team-profile">
-                    <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/team/3-270x270.jpg">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alex Ferguson</h6>
-                          <div class="team-spec">CEO Founder</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
+                    <a href="#tien-do3" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_03.jpg"> </a>
                   </div>
                 </div>
                 <div class="col-team col-xs-6 col-md-4 wow fadeIn">
                   <div class="team-profile">
-                    <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/team/4-270x270.jpg">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alex Ferguson</h6>
-                          <div class="team-spec">CEO Founder</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
+                    <a href="#tien-do4" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_04.jpg"> </a>
                   </div>
                 </div>
                 <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                   <div class="team-profile">
-                    <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/team/5-270x270.jpg">
-                    <div class="team-hover">
-                      <div class="team-content">
-                        <div class="team-name">
-                          <h6>Alex Ferguson</h6>
-                          <div class="team-spec">CEO Founder</div>
-                        </div>
-                        <div class="team-social">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                        </div>
-                      </div>
-                    </div>
+                    <a href="#tien-do5" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_05.jpg"> </a>
                   </div>
                 </div>
-                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.6s">
-                  <div class="add-new-team">
-                    <div class="add-new-text">
-                      <div class="inner">submit<br>your<br>resume</div>
-                    </div>
-                    <form>
-                      <input type="file">
-                    </form>
+                <div class="col-team col-xs-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <a href="#tien-do6" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/td_06.jpg"> </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div id="tien-do1" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_01.jpg"></div>
+          </div>
+        </div>
+        <div id="tien-do2" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_02.jpg"></div>
+          </div>
+        </div>
+        <div id="tien-do3" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_03.jpg"></div>
+          </div>
+        </div>
+        <div id="tien-do4" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_04.jpg"></div>
+          </div>
+        </div>
+        <div id="tien-do5" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_05.jpg"></div>
+          </div>
+        </div>
+        <div id="tien-do6" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/td_06.jpg"></div>
+          </div>
+        </div>
       </section>
-      @endsection -->
+      @endsection
 
       <!-- Section Contacts -->
       @section('contacts')
@@ -788,27 +748,26 @@
                 <div class="col-md-3">
                   <div class="section-info">
                     <div class="title-hr wow fadeInLeft"></div>
-                    <div class="info-title">Keep in touch</div>
+                    <div class="info-title">Liên Hệ với chúng tôi</div>
                   </div>
                 </div>
                 <div class="col-md-9">
                   <div class="row-contact row">
                     <div class="col-contact col-lg-6">
-                      <h3 class="contact-title contact-top">Melbourne, <span>Australia</span></h3>
-                      <p class="contact-address text-muted"><strong>269 King Str, 05th Floor, Utral Hosue Building, Melbourne, VIC 3000, Australia.</strong></p>
-                      <p class="contact-row"><strong class="text-white">Email:</strong> info@bauhaus.co</p>
-                      <p class="contact-row"><strong class="text-white">Skype:</strong>  bauhaus.arc</p>
+                      <h3 class="contact-title contact-top">Tp. Hồ Chí Minh,  <span>Việt Nam</span></h3>
+                      <p class="contact-address text-muted"><strong>41 đường 20, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp. Hồ Chí Minh, Việt Nam</strong></p>
+                      <p class="contact-row"><strong class="text-white">Email:</strong> info@anzbds.com</p>
                     </div>
                     <div class="col-contact col-lg-6">
-                      <p class="contact-top"><strong class="text-muted">Call directly:</strong></p>
-                      <p class="phone-lg text-white">+99 (0) 344 956 4050</p>
-                      <div class="text-muted"><strong class="text-white">Follow us</strong><br>
+                      <p class="contact-top"><strong class="text-muted">Số điện thoại</strong></p>
+                      <p class="phone-lg text-white">0917 99 86 88</p>
+                      <div class="text-muted"><strong class="text-white">Theo dõi chúng tôi</strong><br>
                         <div class="contact-social social-list">
-                          <a href="" class="icon ion-social-twitter"></a>
-                          <a href="" class="icon ion-social-facebook"></a>
-                          <a href="" class="icon ion-social-googleplus"></a>
-                          <a href="" class="icon ion-social-linkedin"></a>
-                          <a href="" class="icon ion-social-dribbble-outline"></a>
+                          <a href="#" class="icon ion-social-twitter"></a>
+                          <a href="https://www.facebook.com/ANZGlobalIndustry" class="icon ion-social-facebook"></a>
+                          <a href="#" class="icon ion-social-googleplus"></a>
+                          <a href="#" class="icon ion-social-linkedin"></a>
+                          <a href="#" class="icon ion-social-dribbble-outline"></a>
                         </div>
                       </div>
                     </div>
@@ -823,28 +782,28 @@
                 <div class="col-md-3">
                   <div class="section-info">
                     <div class="title-hr wow fadeInLeft"></div>
-                    <div class="info-title">You need help?</div>
+                    <div class="info-title">Form liên hệ</div>
                   </div>
                 </div>
                 <div class="col-md-9">
                   <form class="js-form">
                     <div class="row">
                       <div class="form-group col-sm-6 col-lg-4">
-                        <input class="input-gray" type="text" name="name" required placeholder="Name*">
+                        <input class="input-gray" type="text" name="name" required placeholder="Họ Tên*">
                       </div>
                       <div class="form-group col-sm-6 col-lg-4">
                         <input class="input-gray" type="email" name="email" placeholder="Email">
                       </div>
                       <div class="form-group col-sm-12 col-lg-4">
-                        <input class="input-gray" type="text" name="subject" placeholder="Subject (Optinal)">
+                        <input class="input-gray" type="text" name="subject" placeholder="Tiêu Đề (Không bắt buộc)">
                       </div>
                       <div class="form-group col-sm-12">
-                        <textarea class="input-gray" name="message"  required  placeholder="Message*"></textarea>
+                        <textarea class="input-gray" name="message"  required  placeholder="Tin Nhắn*"></textarea>
                       </div>
-                      <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Send Message</button></div>
+                      <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Gửi</button></div>
                     </div>
-                    <div class="success-message"><i class="fa fa-check text-primary"></i> Thank you!. Your message is successfully sent...</div>
-                    <div class="error-message">We're sorry, but something went wrong</div>
+                    <div class="success-message"><i class="fa fa-check text-primary"></i> Cảm ơn quý khách đã liên hệ với chúng tôi. Chúng tôi sẽ liên lạc với quý khách trong thời gian sớm nhất!</div>
+                    <div class="error-message">Xin lỗi, tin nhắn chưa được gửi đi!</div>
                   </form>
                 </div>
               </div>
