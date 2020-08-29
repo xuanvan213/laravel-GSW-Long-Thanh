@@ -145,6 +145,9 @@
             <a href="#about">Giới Thiệu</a>
           </li>
           <li>
+            <a href="#utilities">Tiện Ích</a>
+          </li>
+          <li>
             <a href="#projects">Thư Viện</a>
           </li>
           <li>
@@ -174,7 +177,7 @@
       <!-- Section About -->
       @yield('about')
 
-      @yield('section-info')
+      @yield('utilities')
 
 
       <!-- Section Projects -->
@@ -207,22 +210,6 @@
               <div class="brand-text">Long Thành</div>
             </div>
           </a>
-        </div>
-        <div class="flex-item">
-          <div class="social-list pull-sm-right">
-            <a href="" class="icon ion-social-twitter"></a>
-            <a href="https://www.facebook.com/ANZGlobalIndustry" class="icon ion-social-facebook"></a>
-            <a href="" class="icon ion-social-googleplus"></a>
-            <a href="" class="icon ion-social-linkedin"></a>
-            <a href="" class="icon ion-social-dribbble-outline"></a>
-          </div>
-        </div>
-        <div class="flex-item">
-          <ul class="lang-list">
-            <li class="active"><a href="">EN</a></li>
-            <li><a href="">FR</a></li>
-            <li><a href="">DE</a></li>
-          </ul> 
         </div>
         <div class="flex-item">
           <div class="inline-block pull-sm-right">2020 &copy; FTCJSC - All Rights Reserved</div>

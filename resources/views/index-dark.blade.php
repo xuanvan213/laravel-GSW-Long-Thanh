@@ -101,7 +101,7 @@
     @endsection
 
       <!-- Section About -->
-    @section('about')
+      @section('about')
       <section id="about" class="section section-about">
         <div class="container">
           <div class="row">
@@ -121,7 +121,7 @@
                 + Thanh toán: linh hoạt chia làm nhiều đợt.<br>
                 + Giá bán: LIÊN HỆ HOTLINE CÓ GIÁ TỐT.<br>
                 + Ưu đãi: LIÊN HỆ HOTLINE CÓ GIÁ TỐT..<br>
-              Hotline chủ đầu tư: 0908.099.189 Ms Phúc<br>
+              Hotline chủ đầu tư: 0917 99 86 88<br>
               Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
               </p>
             </div>
@@ -137,36 +137,30 @@
       @endsection
 
       <!-- Section info -->
-      @section('section-info')
-      <section class="section bg-dots">
+      @section('utilities')
+      <section id="utilities" class="section bg-dots">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">Tiện ích của dự án</div>
+                <h4>Tiện ích của dự án</h4>
               </div>
-            </div>
-            <div class="col-md-9">
-              <div class="row-services row">
-                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp">
-                  <span class="icon icon-apartment"></span>
-                  <h4>Ngành kiến trúc</h4>
-                  <p>Các giai đoạn đầu tiên trong một dự án là rất quan trọng để hiểu nhu cầu của khách hàng của bạn. Với nhiều công cụ khác nhau mà chúng tôi tiếp cận.</p>
+            </div>            
+          </div>
+          <div class="row">
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp">
+                 <a href="/images/tien_ich_01.png"><img class="img-responsive" src="/images/tien_ich_01.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
                 </div>
-                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                  <span class="icon icon-couch"></span>
-                  <h4>Thiết kế nội thất</h4>
-                  <p>Khi trong quá trình thiết kế, chúng tôi phải đi sâu hơn vào nền tảng dự án của bạn, chúng tôi cần phải đi đến bản chất.</p>
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <a href="/images/tien_ich_02.png"><img class="img-responsive" src="/images/tien_ich_02.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
                 </div>
-                <div class="clearfix visible-sm visible-md"></div>
-                <div class="col-service col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
-                  <span class="icon icon-pencil-ruler"></span>
-                  <h4>Kế Hoạch</h4>
-                  <p>Một khi trong quá trình thiết kế, chúng tôi phải đi sâu hơn vào nền tảng của dự án của bạn, chúng tôi cần phải đi đến bản chất, gốc rễ theo thứ tự.</p>
-                </div>
-              </div>
-            </div>
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
+                <a href="/images/tien_ich_03.png"><img class="img-responsive" src="/images/tien_ich_03.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
+                </div>      
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
+                  <<a href="/images/tien_ich_04.png"><img class="img-responsive" src="/images/tien_ich_04.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
+                </div>      
           </div>
         </div>
       </section>
@@ -503,7 +497,7 @@
         <!-- Project Modal mặt bằng tổng thể -->
         <div id="mb-tong-the" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/mb_tong_thejpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/mb_tong_the.jpg"></div>
             <div class="col-lg-4">
               <h3 class="project-detail-title">Mặt bằng Tổng thể toàn Khu đô thị Gem Sky World</h3>
               <p class="project-detail-text">Khu vực xây dựng được xây thành 6 phân khu chính bao gồm</p>
@@ -610,7 +604,7 @@
         <!-- Project modal phối cảnh shophouse-->
         <div id="pc-shophouse" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
-            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/imageskhu-shophouse-thuong-mai-gem-sky-world.jpg"></div>
+            <div class="col-lg-8"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/khu-shophouse-thuong-mai-gem-sky-world.jpg"></div>
             <div class="col-lg-4">
               <h3 class="project-detail-title">Phối cảnh Nhà phố thương mại Shophouse tại dự án</h3>
               <p class="project-detail-text"></p>
