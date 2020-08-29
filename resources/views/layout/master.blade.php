@@ -69,18 +69,21 @@
       </div>
       <nav class="nav mobile-menu">
         <ul class="menu-list right-boxed">
-          <li>
+        <li>
             <a  href="#main">Trang Chủ</a>
           </li>
           <li>
             <a href="#about">Giới Thiệu</a>
           </li>
           <li>
+            <a href="#utilities">Tiện Ích</a>
+          </li>
+          <li>
             <a href="#projects">Thư Viện</a>
           </li>
-          <!-- <li>
-            <a href="#clients">Khách Hàng</a>
-          </li> -->
+          <li>
+            <a href="#house-template">Căn Hộ Mẫu</a>
+          </li>
           <li>
             <a href="#status">Tiến Độ</a>
           </li>
@@ -89,16 +92,6 @@
           </li>
         </ul>
       </nav>
-      <!-- <div class="menu-footer right-boxed">
-        <div class="social-list">
-          <a href="#" class="icon ion-social-twitter"></a>
-          <a href="#" class="icon ion-social-facebook"></a>
-          <a href="#" class="icon ion-social-googleplus"></a>
-          <a href="#" class="icon ion-social-linkedin"></a>
-          <a href="#" class="icon ion-social-dribbble-outline"></a>
-        </div>
-        <div class="copy">© Bauhaus 2019. All Rights Reseverd<br> Design by LoganCee</div>
-      </div> -->
     </div>
 
     <!-- Navbar -->
@@ -114,7 +107,7 @@
       </a>
 
       <!-- Phone -->
-      <address class="navbar-address visible-md visible-xl">call us: <span class="text-white">(+080) 9684 32 45 789</span></address>
+      <address class="navbar-address visible-md visible-xl">call us: <span class="text-white">0917 99 86 88</span></address>
 
       <!-- Button -->
       <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
