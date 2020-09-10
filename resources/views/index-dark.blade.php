@@ -113,7 +113,7 @@
               TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ CENTURY CITY <br>
                 + Vị trí: hai mặt tiền đường 769 và đường vào cổng chính sân bay Long Thành. <br>
                 + Quy mô: 49.8ha trong đó 40% là đất thương mại dịch vụ, 2150 sản phẩm đất nền, nhà phố, biệt thự. <br>
-                + Chủ đầu tư: KIM OANH GROUP. <br>
+                + Chủ đầu tư: ĐẤT XANH GROUP. <br>
                 + Tiện ích nội khu: Trường học, công viên cây xanh, khu thương mại dịch vụ .v.v. <br>
                 + Tiện ích liên kết: dân cư xung quanh đông đúc, đầy đủ tiện ích cơ bản như trường học, bệnh viện, khu vui chơi, giải trí, trung tâm thương mại,...<br>
                 + Hạ tầng: Đường nội khu 12 - 26 mét, vỉa hè rộng thoáng, điện âm, nước thủy cục, hệ thống thông tin liên lạc đầy đủ....<br>
