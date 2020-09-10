@@ -109,16 +109,21 @@
               <strong class="section-subtitle">Giới Thiệu</strong>
               <h2 class="section-title section-about-title">Gem Sky World</h2>
               <p>
-              Tọa lạc ngay cửa ngõ ra vào sân bay quốc tế Long Thành, CENTURY CITY được đánh giá hội đủ tất cả những yếu tố tiềm năng nhất cho sự gia tăng giá trị tương lai của bất động sản khi nhà đầu tư lựa chọn đặt niềm tin vào nơi đây..
-              TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ CENTURY CITY <br>
-                + Vị trí: hai mặt tiền đường 769 và đường vào cổng chính sân bay Long Thành. <br>
-                + Quy mô: 49.8ha trong đó 40% là đất thương mại dịch vụ, 2150 sản phẩm đất nền, nhà phố, biệt thự. <br>
-                + Chủ đầu tư: ĐẤT XANH GROUP. <br>
-                + Tiện ích nội khu: Trường học, công viên cây xanh, khu thương mại dịch vụ .v.v. <br>
-                + Tiện ích liên kết: dân cư xung quanh đông đúc, đầy đủ tiện ích cơ bản như trường học, bệnh viện, khu vui chơi, giải trí, trung tâm thương mại,...<br>
-                + Hạ tầng: Đường nội khu 12 - 26 mét, vỉa hè rộng thoáng, điện âm, nước thủy cục, hệ thống thông tin liên lạc đầy đủ....<br>
-                + Pháp lý: sổ hồng riêng từng nền. <br>
-                + Thanh toán: linh hoạt chia làm nhiều đợt.<br>
+              Dự án Gem Sky World Long Thành là siêu đô thị thông minh lớn nhất từ trước đến nay nằm vị trí độc tôn liền kề Sân bay Quốc tế Long Thành. Chủ đầu tư và phát triển của dự án là Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Trực thuộc Công ty Cổ phần Tập đoàn Đất Xanh - Đất Xanh Group).<br>
+              TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ GEM SKY WORLD <br>
+              Tên dự án: Khu Đô Thị Thương Mại Giải Trí Gem Sky World<br>
+              • Chủ đầu tư và phát triển: Đất Xanh Group<br>
+              • Vị trí: Khu dân cư Long Đức, Long Thành, Đồng Nai<br>
+              • Tổng diện tích: 92.2 ha<br>
+              • Quy mô dân số: 18-18.8 ngàn<br>
+              • Mật độ xây dựng toàn khu: <=50%<br>
+              • Tầng cao xây dựng:<br>
+                - Nhà ở riêng lẻ: 2-4 tầng<br>
+                - Nhà chung cư: 5-6 tầng<br>
+                - Công trình dịch vụ: <=3 tầng<br>
+              • Số lượng sản phẩm của Dự án Gem SkyWorld là 4.022, bao gồm:<br>
+                - Đất nền: Nhà phố liên kế, Biệt thự song lập, Biệt thự đơn lập<br>
+                - Nhà phố xây sẵn: Nhà phố liên kế, Shophouse<br>
                 + Giá bán: LIÊN HỆ HOTLINE CÓ GIÁ TỐT.<br>
                 + Ưu đãi: LIÊN HỆ HOTLINE CÓ GIÁ TỐT..<br>
               Hotline chủ đầu tư: 0917 99 86 88<br>
