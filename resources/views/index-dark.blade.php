@@ -105,7 +105,7 @@
       <section id="about" class="section section-about">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
               <strong class="section-subtitle">Giới Thiệu</strong>
               <h2 class="section-title section-about-title">Gem Sky World</h2>
               <p>
@@ -130,7 +130,7 @@
               Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
               </p>
             </div>
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-7">
               <div class="dots-image">
                 <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/phoi_canh.jpg">
                 <div class="dots"></div>
