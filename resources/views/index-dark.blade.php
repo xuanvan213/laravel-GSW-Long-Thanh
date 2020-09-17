@@ -102,11 +102,11 @@
 
       <!-- Section About -->
       @section('about')
-      <section id="about" class="section section-about">
+      <section id="gioi-thieu-du-an-Gem-Sky-World" class="section section-about">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <h4>Giới Thiệu</h4>
+              <strong class="section-subtitle">Giới Thiệu</strong>
               <h2 class="section-title section-about-title">Gem Sky World</h2>
               <p>
               Dự án Gem Sky World Long Thành là siêu đô thị thông minh lớn nhất từ trước đến nay nằm vị trí độc tôn liền kề Sân bay Quốc tế Long Thành. Chủ đầu tư và phát triển của dự án là Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Trực thuộc Công ty Cổ phần Tập đoàn Đất Xanh - Đất Xanh Group).<br>
@@ -151,29 +151,59 @@
 
       <!-- Section info -->
       @section('utilities')
-      <section id="utilities" class="section bg-dots">
+      <section id="tien-ich-du-an-Gem-Sky-World" class="section bg-dots">       
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
                 <h4>Tiện ích của dự án</h4>
               </div>
-            </div>            
-          </div>
-          <div class="row">
+            </div>
+            <div class="col-md-10">
+              <div class="row-team row">
                 <div class="col-service col-sm-6 col-lg-6 wow fadeInUp">
-                 <a href="/images/tien_ich_01.png"><img class="img-responsive" src="/images/tien_ich_01.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
+                  <div class="team-profile">
+                    <a href="#tien_ich1" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/tien_ich_01.png"> </a>                                   
+                  </div>
                 </div>
-                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                <a href="/images/tien_ich_02.png"><img class="img-responsive" src="/images/tien_ich_02.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <div class="team-profile">
+                    <a href="#tien_ich2" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/tien_ich_02.png"> </a>
+                  </div>
                 </div>
-                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
-                <a href="/images/tien_ich_03.png"><img class="img-responsive" src="/images/tien_ich_03.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
-                </div>      
-                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
-                  <<a href="/images/tien_ich_04.png"><img class="img-responsive" src="/images/tien_ich_04.png" alt="hình ảnh dự án Gem Sky Work Long Thành"></a> 
-                </div>      
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="team-profile">
+                    <a href="#tien_ich3" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/tien_ich_03.png"> </a>
+                  </div>
+                </div>
+                <div class="col-service col-sm-6 col-lg-6 wow fadeInUp">
+                  <div class="team-profile">
+                    <a href="#tien_ich4" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Gem Sky Work Long Thành" src="/images/tien_ich_04.png"> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="tien_ich1" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/tien_ich_01.png"></div>
+          </div>
+        </div>
+        <div id="tien_ich2" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/tien_ich_02.png"></div>
+          </div>
+        </div>
+        <div id="tien_ich3" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/tien_ich_03.png"></div>
+          </div>
+        </div>
+        <div id="tien_ich4" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Gem Sky Work Long Thành" class="project-detail-img" src="/images/tien_ich_04.png"></div>
           </div>
         </div>
       </section>
@@ -181,7 +211,7 @@
 
       <!-- Section Projects -->
       @section('projects')
-      <section id="projects" class="section-projects section">
+      <section id="thu-vien-du-an-Gem-Sky-World" class="section-projects section">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -652,13 +682,14 @@
       @endsection
 
       @section('house-template')
-      <section id="house-template" class="section">
+      <section id="can-ho-mau-du-an-Gem-Sky-World" class="section">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">Căn Hộ Mẫu</div>
+                
+                <h4>Căn Hộ Mẫu</h4>
               </div>
             </div>
             <div class="col-md-9">
@@ -732,13 +763,13 @@
 
       <!-- Section Team -->
       @section('status')
-      <section id="status" class="section">
+      <section id="tien-do-du-an-Gem-Sky-World" class="section">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div class="section-info">
                 <div class="title-hr wow fadeInLeft"></div>
-                <div class="info-title">TIẾN ĐỘ THI CÔNG DỰ ÁN</div>
+                <h4>TIẾN ĐỘ THI CÔNG DỰ ÁN</h4>
               </div>
             </div>
             <div class="col-md-9">
@@ -813,7 +844,7 @@
       
       <!-- Section Contacts -->
       @section('contacts')
-      <section id="contacts">
+      <section id="lien-he-du-an-Gem-Sky-World">
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0037039353415!2d106.95882521488537!3d10.811027592298023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317511d3f6a01e2f%3A0x3d7cc27666558427!2sGem%20Sky%20World!5e0!3m2!1svi!2s!4v1599757125752!5m2!1svi!2s" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -824,28 +855,19 @@
                 <div class="col-md-3">
                   <div class="section-info">
                     <div class="title-hr wow fadeInLeft"></div>
-                    <div class="info-title">Liên Hệ với chúng tôi</div>
+                    <h4>Liên Hệ với chúng tôi</h4>
                   </div>
                 </div>
                 <div class="col-md-9">
                   <div class="row-contact row">
                     <div class="col-contact col-lg-6">
-                      <h3 class="contact-title contact-top">Tp. Hồ Chí Minh,  <span>Việt Nam</span></h3>
-                      <p class="contact-address text-muted"><strong>41 đường 20, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp. Hồ Chí Minh, Việt Nam</strong></p>
-                      <p class="contact-row"><strong class="text-white">Email:</strong> info@anzbds.com</p>
+                      <h3 class="contact-title contact-top">Tp. Hồ Chí Minh,  Việt Nam</h3>
+                      <p class="contact-address text-black"><strong>41 đường 20, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp. Hồ Chí Minh, Việt Nam</strong></p>
+                      <p class="contact-row"><strong class="text-dark">Email: info@anzbds.com</strong></p>
                     </div>
                     <div class="col-contact col-lg-6">
-                      <p class="contact-top"><strong class="text-muted">Số điện thoại</strong></p>
-                      <p class="phone-lg text-white">0917 99 86 88</p>
-                      <div class="text-muted"><strong class="text-white">Theo dõi chúng tôi</strong><br>
-                        <div class="contact-social social-list">
-                          <a href="#" class="icon ion-social-twitter"></a>
-                          <a href="https://www.facebook.com/ANZGlobalIndustry" class="icon ion-social-facebook"></a>
-                          <a href="#" class="icon ion-social-googleplus"></a>
-                          <a href="#" class="icon ion-social-linkedin"></a>
-                          <a href="#" class="icon ion-social-dribbble-outline"></a>
-                        </div>
-                      </div>
+                      <p class="contact-top"><strong class="text-dark">Hotline</strong></p>
+                      <p class="phone-lg text-dark">0917 99 86 88</p>
                     </div>
                   </div>
                 </div>
@@ -858,7 +880,7 @@
                 <div class="col-md-3">
                   <div class="section-info">
                     <div class="title-hr wow fadeInLeft"></div>
-                    <div class="info-title">Form liên hệ</div>
+                    <h4>Form liên hệ</h4>
                   </div>
                 </div>
                 <div class="col-md-9">

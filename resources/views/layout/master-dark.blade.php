@@ -38,10 +38,6 @@
   <!-- Styles -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
   <link href="/css/dark.css" rel="stylesheet" media="screen">
-
-
-
-    
     
 </head>
 <body>
@@ -70,25 +66,25 @@
       <nav class="nav mobile-menu">
         <ul class="menu-list right-boxed">
         <li>
-            <a  href="#main">Trang Chủ</a>
+            <a  href="#du-an-Gem-Sky-World">Trang Chủ</a>
           </li>
           <li>
-            <a href="#about">Giới Thiệu</a>
+            <a href="#gioi-thieu-du-an-Gem-Sky-World">Giới Thiệu</a>
           </li>
           <li>
-            <a href="#utilities">Tiện Ích</a>
+            <a href="#tien-ich-du-an-Gem-Sky-World">Tiện Ích</a>
           </li>
           <li>
-            <a href="#projects">Thư Viện</a>
+            <a href="#thu-vien-du-an-Gem-Sky-World">Thư Viện</a>
           </li>
           <li>
-            <a href="#house-template">Căn Hộ Mẫu</a>
+            <a href="#can-ho-mau-du-an-Gem-Sky-World">Căn Hộ Mẫu</a>
           </li>
           <li>
-            <a href="#status">Tiến Độ</a>
+            <a href="#tien-do-du-an-Gem-Sky-World">Tiến Độ</a>
           </li>
           <li>
-            <a href="#contacts">Liên Hệ</a>
+            <a href="#lien-he-du-an-Gem-Sky-World">Liên Hệ</a>
           </li>
         </ul>
       </nav>

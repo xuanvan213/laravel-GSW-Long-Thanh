@@ -37,8 +37,132 @@
 
   <!-- Styles -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
- 
     
+  {{-- Google review --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "DỰ ÁN GEM SKY WORLD SÂN BAY LONG THÀNH",
+      "image": [
+        "https://gswlongthanh.anzbds.com/images/khu-biet-thu-don-lap-gem-sky-world.jpg",
+        "https://gswlongthanh.anzbds.com/images/khu-biet-thu-song-lap-gem-sky-world.jpg",
+        "https://gswlongthanh.anzbds.com/images/khu-shophouse-thuong-mai-gem-sky-world.jpg",
+        "https://gswlongthanh.anzbds.com/images/nha-pho-lien-ke-gem-skyworld.jpg",
+        "https://gswlongthanh.anzbds.com/images/nha_pho_thuong_mai.jpg"
+       ],
+      "description": " Dự án Gem Sky World Long Thành là siêu đô thị thông minh lớn nhất từ trước đến nay nằm vị trí độc tôn liền kề Sân bay Quốc tế Long Thành. Chủ đầu tư và phát triển của dự án là Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Trực thuộc Công ty Cổ phần Tập đoàn Đất Xanh - Đất Xanh Group).<br>
+              TỔNG THỂ DỰ ÁN KHU ĐÔ THỊ GEM SKY WORLD",
+      "sku": "DUAN-GEMSKYWORLD-LT-DN",
+      "mpn": "000001",
+      "brand": {
+        "@type": "Brand",
+        "name": "Gem Sky World"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Nguyen Tai"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "89"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://anzbds.com/",
+        "priceCurrency": "USD",
+        "price": "1.500",
+        "priceValidUntil": "2020-11-20",
+        "seller": {
+          "@type": "Organization",
+          "name": "ANZ Bất Động Sản"
+        }
+      }
+    }
+    </script>
+    {{-- Google FAQPage --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Giữ chỗ biệt thự song lập giá bao nhiêu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Căn hộ Gem Sky World của Đất Xanh đang tiến hành giữ chỗ 150tr/suất!"
+        }
+      }, {
+        "@type": "Question",
+        "name": "Giá bán dự kiến khoảng bao nhiêu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Giá bán dự án Gem Sky World đang được truyền thông với: căn hộ giá từ 2.700$/m2 và văn phòng có giá từ 1.500$/m2."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Thời gian mở bán Gem Sky World?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hiện tại chưa công bố thời gian cụ thể mở bán! Vui lòng liên hệ 0902.714417 để được thông báo sớm nhất thời gian mở bán!"
+        }
+      }]
+    }
+    </script>
+
+    {{-- Mobile App --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Trang chủ",
+        "item": "https://gswlongthanh.anzbds.com/#du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Giới thiệu",
+        "item": "https://gswlongthanh.anzbds.com/#gioi-thieu-du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Tiện ích",
+        "item": "https://gswlongthanh.anzbds.com/#tien-ich-du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Thư viện",
+        "item": "https://gswlongthanh.anzbds.com/#thu-vien-du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Căn hộ mẫu",
+        "item": "https://gswlongthanh.anzbds.com/#can-ho-mau-du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Tiến độ",
+        "item": "https://gswlongthanh.anzbds.com/#tien-do-du-an-Gem-Sky-World"
+      },{
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Liện hệ",
+        "item": "https://gswlongthanh.anzbds.com/#lien-he-du-an-Gem-Sky-World"
+      }]
+    }
+    </script>
+
 </head>
 <body>
 
@@ -66,25 +190,25 @@
       <nav class="nav mobile-menu">
         <ul class="menu-list right-boxed">
         <li>
-            <a  href="#main">Trang Chủ</a>
+            <a  href="#du-an-Gem-Sky-World">Trang Chủ</a>
           </li>
           <li>
-            <a href="#about">Giới Thiệu</a>
+            <a href="#gioi-thieu-du-an-Gem-Sky-World">Giới Thiệu</a>
           </li>
           <li>
-            <a href="#utilities">Tiện Ích</a>
+            <a href="#tien-ich-du-an-Gem-Sky-World">Tiện Ích</a>
           </li>
           <li>
-            <a href="#projects">Thư Viện</a>
+            <a href="#thu-vien-du-an-Gem-Sky-World">Thư Viện</a>
           </li>
           <li>
-            <a href="#house-template">Căn Hộ Mẫu</a>
+            <a href="#can-ho-mau-du-an-Gem-Sky-World">Căn Hộ Mẫu</a>
           </li>
           <li>
-            <a href="#status">Tiến Độ</a>
+            <a href="#tien-do-du-an-Gem-Sky-World">Tiến Độ</a>
           </li>
           <li>
-            <a href="#contacts">Liên Hệ</a>
+            <a href="#lien-he-du-an-Gem-Sky-World">Liên Hệ</a>
           </li>
         </ul>
       </nav>
