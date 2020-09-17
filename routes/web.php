@@ -11,5 +11,12 @@
 |
 */
 
-Route::get('/', "HomeController@index");
-Route::get('/dark', "HomeDarkController@index");
+$appRoutes = function() {
+    Route::get('/',"HomeController@index"); 
+};
+$appDarkRoutes = function() {
+    Route::get('/',"HomeDarkController@index"); 
+};
+
+Route::group(array('domain' => 'gswlongthanh.anzbds.com'), $appRoutes);
+Route::group(array('domain' => 'dark.gswlongthanh.anzbds.com'), $appDarkRoutes);
