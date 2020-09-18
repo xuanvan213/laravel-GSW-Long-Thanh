@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'HomeController@index');
+Route::get('/dark', 'HomeDarkController@index');
 
 $appRoutes = function() {
     Route::get('/',"HomeController@index"); 
