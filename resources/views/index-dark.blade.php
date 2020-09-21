@@ -2,7 +2,7 @@
 @extends('layout.master-dark')
      <!-- Start revolution slider -->
      @section('revolution-slider')
-      <div class="rev_slider_wrapper">
+      <div class="rev_slider_wrapper" id="du-an-Gem-Sky-World">
         <div id="rev_slider" class="rev_slider tp-overflow-hidden fullscreenbanner">
           <ul>
 
@@ -868,6 +868,7 @@
                     <div class="col-contact col-lg-6">
                       <p class="contact-top"><strong class="text-dark">Hotline</strong></p>
                       <p class="phone-lg text-dark">0917 99 86 88</p>
+                      
                     </div>
                   </div>
                 </div>
