@@ -976,6 +976,7 @@ a.brand:focus{
   width: 300px;
   animation: move-sell 1s linear infinite;
   text-align: center;
+  margin: 0 auto;
 }
 @keyframes move-sell{
   0%{
@@ -992,7 +993,7 @@ a.brand:focus{
   width: 200px;
   height: 69px;
   display: block;
-  margin-top: 10px;
+  margin: 10px 0px;
 }
 
 .wrapper{
