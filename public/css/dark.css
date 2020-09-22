@@ -200,6 +200,7 @@ textarea.input-gray:focus{
 .col-contact-info:nth-child(2n) {
     border-left: 1px solid #3c3c3c;
 }
+}
 
 @media (min-width: 1200px){
   .col-contact-info {

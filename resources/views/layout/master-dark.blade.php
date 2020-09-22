@@ -246,7 +246,7 @@
 
       <!-- Navigation -->
       <nav class="nav navigation visible-lg">
-      <ul class="menu-list right-boxed">
+      <ul>
         <li>
             <a  href="#du-an-Gem-Sky-World">Trang Chủ</a>
           </li>

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
+use \Swift_Mailer;
+use \Swift_SmtpTransport;
 
 class HomeController extends Controller
 {
@@ -80,5 +83,40 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+    }
+    // Send mail to contact
+    public static function sendEmailContacts(Request $request )
+    {
+        // Backup your default mailer
+        $backup = Mail::getSwiftMailer();
+
+        //comment vì đã set config ở file .env. Nếu bỏ comment thì bị lỗi
+        // // Setup your gmail mailer
+        // $transport = new Swift_SmtpTransport('mail.babaza.vn', 587, 'tls');
+        // $transport->setUsername('duan.anzbds@gmail.com');
+        // $transport->setPassword('Anzbds@1808.');
+        // // Any other mailer configuration stuff needed...
+
+        // $gmail = new Swift_Mailer($transport);
+
+        // Set the mailer as gmail
+        // Mail::setSwiftMailer($gmail);
+
+        $data = ['email'=>$request->email, 'name'=>$request->name, 'content'=>$request->content];
+
+        Mail::send('emails.mailContact', $data, function ($message) {
+            $message->to('vantx2103@gmail.com');
+            $message->subject("Mail Contact Project ANZ Bất Động Sản Gem Sky World");
+            $message->from('duan.anzbds@gmail.com', 'Anzbds');
+        });
+        
+        // Restore your original mailer
+        Mail::setSwiftMailer($backup);
+
+        // echo alert and redirect to Homepage
+        echo "<script>";
+        echo " alert('Cảm ơn quý khách đã liên hệ với với chúng tôi! Chúng tôi sẽ liên hệ với bạn ngây khi có thông tin mới nhất');      
+            window.location.href='".url('/')."';
+        </script>";
     }
 }

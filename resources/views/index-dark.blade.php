@@ -31,7 +31,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600;">
-                  <a href="#phohoanghon" class="popup-with-zoom-anim link-arrow"> Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word" class="link-arrow"> Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
@@ -61,7 +61,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600;">
-                  <a href="#truongquocte" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word" class="link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
@@ -91,7 +91,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on" 
                 data-elementdelay="0.05" style="font-weight:600; ">
-                  <a href="#khuvuichoi" class="popup-with-zoom-anim link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
+                  <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word" class="link-arrow">Xem chi tiết <i class="icon ion-ios-arrow-thin-right"></i>
                 </a>
               </div>
             </li>
@@ -106,7 +106,10 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8">
-              <strong class="section-subtitle">Giới Thiệu</strong>
+              <div class="section-info">
+                <div class="title-hr wow fadeInLeft"></div>                
+                <h4>Giới Thiệu</h4>
+              </div>
               <h2 class="section-title section-about-title">Gem Sky World</h2>
               <p>
               Dự án Gem Sky World Long Thành là siêu đô thị thông minh lớn nhất từ trước đến nay nằm vị trí độc tôn liền kề Sân bay Quốc tế Long Thành. Chủ đầu tư và phát triển của dự án là Công ty Cổ phần Đầu tư Kinh doanh Bất động sản Hà An (Trực thuộc Công ty Cổ phần Tập đoàn Đất Xanh - Đất Xanh Group).<br>
@@ -128,13 +131,13 @@
                 + Ưu đãi: LIÊN HỆ HOTLINE CÓ GIÁ TỐT..<br>
               Hotline chủ đầu tư: 0917 99 86 88<br>
               Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
+              <div class="product-selling">
+                  <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word">Sản Phẩm đang mở bán</a>
+                </div>
               </p>
             </div>
             <div class="col-md-4">
-              <!-- <div class="dots-image">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/phoi_canh.jpg">
-                <div class="dots"></div>
-              </div> -->
+             
             </div>
           </div>
           <div class="row">
@@ -215,10 +218,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="filter-content">
-                <ul class="filter-carousel filter pull-lg-left js-filter-carousel">
-                  <li class="active"><h2 data-filter="*">THƯ VIỆN</h2></li>
-                </ul>
+              <div class="section-info">
+                  <div class="title-hr wow fadeInLeft"></div>                
+                  <h4>Thư Viện</h4>
               </div>
             </div>
           </div>
@@ -863,12 +865,22 @@
                     <div class="col-contact col-lg-6">
                       <h3 class="contact-title contact-top">Tp. Hồ Chí Minh,  Việt Nam</h3>
                       <p class="contact-address text-black"><strong>41 đường 20, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp. Hồ Chí Minh, Việt Nam</strong></p>
-                      <p class="contact-row"><strong class="text-dark">Email: info@anzbds.com</strong></p>
+                      <p class="contact-row"><strong >Email: info@anzbds.com</strong></p>
                     </div>
                     <div class="col-contact col-lg-6">
-                      <p class="contact-top"><strong class="text-dark">Hotline</strong></p>
-                      <p class="phone-lg text-dark">0917 99 86 88</p>
-                      
+                      <h3 class="contact-title contact-top">HOT LINE:</h3>
+                      <p class="phone-lg">0917 99 86 88</p>
+                      <h3 class="contact-title contact-top">TẢI NGAY ỨNG DỤNG</h3>
+                      <div class="row">
+                        <div class="col-md-6">
+                        <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="images/android.jpg">
+                        <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="logo-down" src="images/logo-ggplay.png">
+                        </div>
+                        <div class="col-md-6">
+                        <img alt="hình ảnh dự án Gem Sky Work Long Thành" src="images/android.jpg">
+                        <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="logo-down" src="images/logo-app-store.png">
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -885,7 +897,8 @@
                   </div>
                 </div>
                 <div class="col-md-9">
-                  <form class="js-form">
+                  <form  id="form-contact" action="{{ url('/dark/contact') }}" method="post">
+                    @csrf
                     <div class="row">
                       <div class="form-group col-sm-6 col-lg-4">
                         <input class="input-gray" type="text" name="name" required placeholder="Họ Tên*">
@@ -893,11 +906,8 @@
                       <div class="form-group col-sm-6 col-lg-4">
                         <input class="input-gray" type="email" name="email" placeholder="Email">
                       </div>
-                      <div class="form-group col-sm-12 col-lg-4">
-                        <input class="input-gray" type="text" name="subject" placeholder="Tiêu Đề (Không bắt buộc)">
-                      </div>
                       <div class="form-group col-sm-12">
-                        <textarea class="input-gray" name="message"  required  placeholder="Tin Nhắn*"></textarea>
+                        <textarea class="input-gray" name="content"  required  placeholder="Tin Nhắn*"></textarea>
                       </div>
                       <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Gửi</button></div>
                     </div>
