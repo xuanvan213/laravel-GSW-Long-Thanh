@@ -24,7 +24,7 @@ Route::group(array('domain' => 'gswlongthanh.anzbds.com'), $appRoutes);
 Route::group(array('domain' => 'dark.gswlongthanh.anzbds.com'), $appDarkRoutes);
 
 //email contact
-//send mail by light template
+//send mail by dark template
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');
 

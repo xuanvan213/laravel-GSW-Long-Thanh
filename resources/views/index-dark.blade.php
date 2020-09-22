@@ -849,9 +849,9 @@
       <section id="lien-he-du-an-Gem-Sky-World">
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0037039353415!2d106.95882521488537!3d10.811027592298023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317511d3f6a01e2f%3A0x3d7cc27666558427!2sGem%20Sky%20World!5e0!3m2!1svi!2s!4v1599757125752!5m2!1svi!2s" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="section bg-dots">
-          <section>
+        </div>        
+        <div class="section bg-dots">      
+          <section>    
             <div class="container">
               <div class="row">
                 <div class="col-md-3">
