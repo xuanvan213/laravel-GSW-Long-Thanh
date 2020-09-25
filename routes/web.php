@@ -56,7 +56,7 @@ $appOrigamiDarkRoutes = function() {
 
 
 //route group
-Route::group(array('domain' => 'gswlongthanh.anzbds.com'), $appRoutes);
-Route::group(array('domain' => 'dark.gswlongthanh.anzbds.com'), $appDarkRoutes);
+Route::group(array('domain' => 'gswlongthanh.anzbds.com'), $appGSWRoutes);
+Route::group(array('domain' => 'dark.gswlongthanh.anzbds.com'), $appGSWDarkRoutes);
 Route::group(array('domain' => 'theorigami.anzbds.com'), $appOrigamiRoutes);
 Route::group(array('domain' => 'dark.theorigami.anzbds.com'), $appOrigamiDarkRoutes);
