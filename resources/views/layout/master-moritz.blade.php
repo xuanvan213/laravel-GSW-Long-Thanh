@@ -2,7 +2,7 @@
 
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="FTC Joint Stock Company">
     <meta name="author" content="Paul">
@@ -19,10 +19,6 @@
     <link rel="stylesheet" href="/css/style-moritz.css" type="text/css">
 
     <title>DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC | ANZBDS</title>
-
-    <link rel="shortcut icon" href="https:/.anzbds.com/images/logo.jpg" type="image/x-icon">
-    <link rel="icon" href="https:/.anzbds.com/images/logo.jpg" type="image/x-icon">
-
     
 
     <meta property="og:title" content="DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC" /> 
@@ -39,6 +35,7 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- Favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.jpg" />
   <link rel="shortcut icon" sizes="196x196" href="/images/logo.jpg">
   <link rel="apple-touch-icon" href="/images/logo.jpg">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/logo.jpg">
