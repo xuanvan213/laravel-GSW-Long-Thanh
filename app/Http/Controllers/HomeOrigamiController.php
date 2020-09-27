@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Page;
 
 class HomeOrigamiController extends Controller
 {
@@ -80,5 +81,8 @@ class HomeOrigamiController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function sitemap(){
+        return response()->view('sitemap.sitemap-origami')->header('Content-Type', 'text/xml');
     }
 }

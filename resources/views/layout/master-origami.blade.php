@@ -6,23 +6,23 @@
   <meta name="description" content="DỰ ÁN THE ORIGAMI VINHOMES GRAND PARK">
   <meta name="author" content="Paul">
   <meta name="keywords" content="vinhome grand park, du an vinhome, du an Origami, dự án căn hộ Origami, phân khu origami, dự án căn hộ chung cư, dự án căn hộ phong cách Nhật Bản, căn hộ quận 9, cuộc sống xanh, căn hộ vị trí đắc địa ">
-    <meta name="description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất."/>
-    <meta name="author" content="FTC Joint Stock Company">
-    <meta name="image" content="/images/brand-origami.png">
+  <meta name="description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất."/>
+  <meta name="author" content="FTC Joint Stock Company">
+  <meta name="image" content="/images/brand-origami.png">
 
 
   <meta property="og:title" content="DỰ ÁN THE ORIGAMI VINHOMES GRAND PARK" /> 
-    <meta property="og:type" content="article" /> 
-    <meta property="og:url" content="" /> 
-    <meta property="og:image" content="/images/brand-origami.png" /> 
-    <meta property="og:description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất." /> 
-    <meta property="og:site_name" content="DỰ ÁN THE ORIGAMI VINHOMES GRAND PARK" />
-    <meta property="og:image:url" content="/images/brand-origami.png">
-    <meta property="og:image:alt" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
-    <meta name="twitter:title" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
-    <meta name="twitter:description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất.">
-    <meta name="twitter:image" content="/images/brand-origami.png">
-    <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="article" /> 
+  <meta property="og:url" content="" /> 
+  <meta property="og:image" content="/images/brand-origami.png" /> 
+  <meta property="og:description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất." /> 
+  <meta property="og:site_name" content="DỰ ÁN THE ORIGAMI VINHOMES GRAND PARK" />
+  <meta property="og:image:url" content="/images/brand-origami.png">
+  <meta property="og:image:alt" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
+  <meta name="twitter:title" content="Ứng dụng ANZBDS - Ứng dụng kết nối mua, bán, cho thuê bất động sản và hơn thế nữa">
+  <meta name="twitter:description" content="Căn hộ The Origami thuộc dự án Vinhomes Grand Park quận 9 được thiết kế theo phong cách Nhật Bản. Là sự hợp tác giữa Tập đoàn Misubishi và Vinhomes mang đến những giá trị và lợi thế của cả hai đơn vị và tạo nên sự thành công của dự án The Origami. Với con số kỷ lục chỉ trong 3 ngày mở bán 2.400 căn hộ thuộc phân khu The Origami được đăng ký đặt mua chớp nhoáng , mới đây, Vinhomes tiếp tục giới thiệu 5 toà cuối cùng: vị trí đẹp, xanh và tầm nhìn đẹp được ví như 5 viên ngọc quý bởi hữu vị trí đắc địa và tầm nhìn đẹp nhất.">
+  <meta name="twitter:image" content="/images/brand-origami.png">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Favicons -->
   <link rel="shortcut icon" sizes="196x196" href="/images/brand-origami.png">

@@ -119,4 +119,8 @@ class HomeController extends Controller
             window.location.href='".url('/')."';
         </script>";
     }
+    public function sitemap(){
+        return response()->view('sitemap.sitemap-gsw')->header('Content-Type', 'text/xml');
+   
+    }
 }
