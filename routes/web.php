@@ -14,68 +14,42 @@
     Route Gem Sky World
 */
 
-Route::get('/', 'HomeController@index');
-Route::get('/dark', 'HomeDarkController@index');
 
+Route::domain('gswlongthanh.anzbds.com')->group(function () {
+    Route::get('/', "HomeController@index"); 
 
-//email contact
-//send mail by dark template
-Route::get('/contact', 'HomeController@getcontact');
-Route::post('/contact', 'HomeController@sendEmailContacts');
+    Route::get('/dark', 'HomeDarkController@index');
 
-//send mail by dark template
-Route::get('/dark/contact', 'HomeDarkController@getcontact');
-Route::post('/dark/contact', 'HomeDarkController@sendEmailContacts');
+    //email contact
+    //send mail by dark template
+    Route::get('/contact', 'HomeController@getcontact');
+    Route::post('/contact', 'HomeController@sendEmailContacts');
 
+    //send mail by dark template
+    Route::get('/dark/contact', 'HomeDarkController@getcontact');
+    Route::post('/dark/contact', 'HomeDarkController@sendEmailContacts');
+    Route::get('/sitemap.xml', 'HomeController@sitemap');
 
+});
 
-/* 
-    Route The Origami
-*/
-Route::get('/origami', 'HomeOrigamiController@index');
-Route::get('/origami-dark', 'HomeOrigamiDarkController@index');
+Route::domain('gswlongthanh.anzbds.com')->group(function () {
+    Route::get('/', "HomeDarkController@index");
+});
 
-/* 
-    Route The Moritz
-*/
-Route::get('/moritz', 'HomeMoritzController@index');
+Route::domain('theorigami.anzbds.com')->group(function () {
+    Route::get('/', "HomeOrigamiController@index");
+    Route::get('/origami', 'HomeOrigamiController@index');
+    Route::get('/origami-dark', 'HomeOrigamiDarkController@index');
+    Route::get('/sitemap.xml', 'HomeOrigamiController@sitemap');
+});
 
-/* 
-    Site map
-*/
-Route::get('/sitemap', 'HomeController@sitemap' );
-Route::get('/origami-sitemap', 'HomeOrigamiController@sitemap' );
-Route::get('/moritz-sitemap', 'HomeMoritzController@sitemap' );
+Route::domain('dark.theorigami.anzbds.com')->group(function () {
+    Route::get('/', "HomeOrigamiDarkController@index");
+});
 
-/* 
-    Switch domain
-*/
+Route::domain('moritz.anzbds.com')->group(function () {
+    Route::get('/', "HomeMoritzController@index");
+    Route::get('/moritz', 'HomeMoritzController@index');
+    Route::get('/sitemap.xml', 'HomeMoritzController@sitemap');
+});
 
-//Gem Sky World
-$appGSWRoutes = function() {
-    Route::get('/',"HomeController@index"); 
-};
-$appGSWDarkRoutes = function() {
-    Route::get('/',"HomeDarkController@index"); 
-};
-
-//the Origami
-$appOrigamiRoutes = function() {
-    Route::get('/',"HomeOrigamiController@index"); 
-};
-$appOrigamiDarkRoutes = function() {
-    Route::get('/',"HomeOrigamiDarkController@index"); 
-};
-
-//ST Moritz
-$appMoritzRoutes = function() {
-    Route::get('/',"HomeMoritzController@index"); 
-};
-
-
-//route group
-Route::group(array('domain' => 'gswlongthanh.anzbds.com'), $appGSWRoutes);
-Route::group(array('domain' => 'dark.gswlongthanh.anzbds.com'), $appGSWDarkRoutes);
-Route::group(array('domain' => 'theorigami.anzbds.com'), $appOrigamiRoutes);
-Route::group(array('domain' => 'dark.theorigami.anzbds.com'), $appOrigamiDarkRoutes);
-Route::group(array('domain' => 'moritz.anzbds.com'), $appMoritzRoutes);
