@@ -15,15 +15,15 @@
 */
 
 
+//email contact
+//send mail by dark template
+Route::get('/contact', 'HomeController@getcontact');
+Route::post('/contact', 'HomeController@sendEmailContacts');
+
 Route::domain('gswlongthanh.anzbds.com')->group(function () {
     Route::get('/', "HomeController@index"); 
 
     Route::get('/dark', 'HomeDarkController@index');
-
-    //email contact
-    //send mail by dark template
-    Route::get('/contact', 'HomeController@getcontact');
-    Route::post('/contact', 'HomeController@sendEmailContacts');
 
     //send mail by dark template
     Route::get('/dark/contact', 'HomeDarkController@getcontact');
