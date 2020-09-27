@@ -15,7 +15,7 @@
 */
 
 
-Route::domain('gswlongthanh.anzbds.com')->group(function () {
+Route::domain('gswlongthanh.anzbds.com', 'www.gswlongthanh.anzbds.com')->group(function () {
     Route::get('/', "HomeController@index"); 
 
     Route::get('/dark', 'HomeDarkController@index');
@@ -32,7 +32,7 @@ Route::domain('gswlongthanh.anzbds.com')->group(function () {
 
 });
 
-Route::domain('gswlongthanh.anzbds.com')->group(function () {
+Route::domain('dark.gswlongthanh.anzbds.com', 'www.dark.gswlongthanh.anzbds.com')->group(function () {
     Route::get('/', "HomeDarkController@index");
 });
 
