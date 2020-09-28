@@ -14,7 +14,6 @@
     Route Gem Sky World
 */
 
-
 //email contact
 //send mail by dark template
 Route::get('/contact', 'HomeController@getcontact');

@@ -323,7 +323,9 @@
           </a>
         </div>
         <div class="flex-item">
-          <div class="inline-block pull-sm-right">2020 &copy; FTCJSC - All Rights Reserved</div>
+        <a href="https://ftcjsc.com">
+          <div class="inline-block pull-sm-right"> 2020 &copy; FTCJSC - All Rights Reserved</div>
+          </a>
         </div>
       </div>
     </footer>

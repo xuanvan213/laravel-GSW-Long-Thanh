@@ -218,7 +218,7 @@
             </div>
             <!--end row-->
             <hr>
-            <div class="note">2020 &copy; FTCJSC - All Rights Reserved</div>
+            <div class="note"><a href="https://ftcjsc.com">2020 &copy; FTCJSC - All Rights Reserved</a> </div>
             <!--end note-->
             <div class="numbers">
                 <div class="row">
