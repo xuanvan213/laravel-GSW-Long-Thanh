@@ -125,10 +125,7 @@
                 Diện tích: 29 – 80m2 (Studio, 1+1PN, 2PN, 2+1PN, 3PN)<br>
                 Pháp lý: Sở hữu lâu dài<br>
                 Nhà thầu xây dựng: Coteccons<br>
-                Thời gian bàn giao: Năm 2021<br>
-              <div class="product-selling">
-                  <a href="https://anzbds.com/du-an/5/origami-vinhomes-grand-park">Sản Phẩm đang mở bán</a>
-                </div>
+                Thời gian bàn giao: Năm 2021<br>              
               </p>
             </div>
             <div class="col-md-4">
@@ -138,7 +135,12 @@
           <div class="row">
             <div class="col-md-12">
               <div class="dots-image">
-                <img alt="hình ảnh dự án The Origami Vinhomes Grand Park" class="about-img img-responsive" src="/images/hinh-ban-hang.jpg">
+                <div class="product-selling">
+                  Đang mở bán
+                </div>
+                <a href="https://anzbds.com/du-an/5/origami-vinhomes-grand-park">
+                  <img alt="hình ảnh dự án The Origami Vinhomes Grand Park" class="about-img img-responsive" src="/images/hinh-ban-hang.jpg">
+                </a>
                 <div class="dots"></div>
               </div>
             </div>
@@ -184,8 +186,7 @@
                   <div class="team-profile">
                     <a href="#tien_ich5" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án The Origami Vinhomes Grand Park" src="/images/vuon-nhat-S1003.jpg"> </a>
                   </div>
-                </div>
-               
+                </div>               
               </div>
             </div>
           </div>

@@ -15,6 +15,11 @@
 */
 
 //email contact
+Route::domain('dummy-host.example.com')->group(function () {
+    Route::get('/', "HomeOrigamiDarkController@index");
+});
+Route::get('/dark', 'HomeOrigamiDarkController@index');
+
 //send mail by dark template
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');

@@ -968,27 +968,28 @@ a.brand:focus{
 -------------------------------------------------------------------------------*/
 
 .product-selling{
-  color: #fff;
+  color: #fff !important;
   background-color: red;
-  font-size: 20px;
+  font-size: 12px;
   padding: 5px;
-  border-radius: 50%;
-  width: 300px;
-  animation: move-sell 1s linear infinite;
+  width: 70px;
+  height: 70px;
   text-align: center;
   margin: 0 auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  display: block;
 }
-@keyframes move-sell{
-  0%{
-    transform: scale(1.2);
-  }
-  50%{
-    transform: scale(1.3);
-  }
-  100%{
-    transform: scale(1.4);
-  }
+
+.product-selling a{
+  color: #fff;
 }
+.product-selling a:hover{
+  text-decoration: none;
+}
+
 .logo-down{
   width: 200px;
   height: 69px;
