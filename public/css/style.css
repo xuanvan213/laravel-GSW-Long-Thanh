@@ -967,16 +967,36 @@ a.brand:focus{
   3. Homepage
 -------------------------------------------------------------------------------*/
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 .product-selling{
   color: #fff;
   background-color: red;
-  font-size: 20px;
+  font-size: 12px;
   padding: 5px;
-  border-radius: 50%;
-  width: 300px;
-  animation: move-sell 1s linear infinite;
+  width: 70px;
+  height: 70px;
   text-align: center;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  z-index: 2;
 }
 @keyframes move-sell{
   0%{
@@ -1081,6 +1101,7 @@ a.brand:focus{
 .dots-image{
   display: inline-block;
   position: relative;
+  margin: 15px 0px;
 }
 
 .dots-image img{

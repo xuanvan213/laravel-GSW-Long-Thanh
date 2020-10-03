@@ -131,9 +131,7 @@
                 + Ưu đãi: LIÊN HỆ HOTLINE CÓ GIÁ TỐT..<br>
               Hotline chủ đầu tư: 0917 99 86 88<br>
               Chuyên viên tư vấn đầu tư bất động sản - gia tăng giá trị bền vững<br>
-              <div class="product-selling">
-                  <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word">Sản Phẩm đang mở bán</a>
-                </div>
+              
               </p>
             </div>
             <div class="col-md-4">
@@ -143,7 +141,12 @@
           <div class="row">
             <div class="col-md-12">
               <div class="dots-image">
-                <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/phoi_canh.jpg">
+                <div class="product-selling">
+                  Đang mở bán
+                </div>
+                <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word">
+                  <img alt="hình ảnh dự án Gem Sky Work Long Thành" class="about-img img-responsive" src="/images/phoi_canh.jpg">
+                </a>
                 <div class="dots"></div>
               </div>
             </div>
