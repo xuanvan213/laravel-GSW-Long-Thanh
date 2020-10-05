@@ -126,7 +126,6 @@
                 Pháp lý: Sở hữu lâu dài<br>
                 Nhà thầu xây dựng: Coteccons<br>
                 Thời gian bàn giao: Năm 2021<br>
-              
               </p>
             </div>
             <div class="col-md-4">
@@ -134,10 +133,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">              
+            <div class="col-md-12">
               <div class="dots-image">
-                <div class="product-selling">
-                    Đang mở bán
+              <div class="product-selling">
+                  Đang mở bán
                 </div>
                 <a href="https://anzbds.com/du-an/5/origami-vinhomes-grand-park">
                   <img alt="hình ảnh dự án The Origami Vinhomes Grand Park" class="about-img img-responsive" src="/images/hinh-ban-hang.jpg">

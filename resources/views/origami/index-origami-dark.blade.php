@@ -186,7 +186,8 @@
                   <div class="team-profile">
                     <a href="#tien_ich5" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án The Origami Vinhomes Grand Park" src="/images/vuon-nhat-S1003.jpg"> </a>
                   </div>
-                </div>               
+                </div>
+               
               </div>
             </div>
           </div>

@@ -15,12 +15,10 @@
 */
 
 //email contact
-Route::domain('dummy-host.example.com')->group(function () {
-    Route::get('/', "HomeOrigamiDarkController@index");
-});
-Route::get('/dark', 'HomeOrigamiDarkController@index');
-
 //send mail by dark template
+// Route::get('/', 'HomeLDGDarkController@index');
+Route::get('/', 'HomeLDGController@index');
+
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');
 
@@ -57,3 +55,14 @@ Route::domain('moritz.anzbds.com')->group(function () {
     Route::get('/sitemap.xml', 'HomeMoritzController@sitemap');
 });
 
+
+Route::domain('ldgsky.anzbds.com')->group(function () {
+    Route::get('/', "HomeLDGController@index");
+    Route::get('/ldg-sky', 'HomeLDGController@index');
+    Route::get('/ldg-sky-dark', 'HomeLDGDarkController@index');
+    Route::get('/sitemap.xml', 'HomeLDGController@sitemap');
+});
+
+Route::domain('dark.ldgsky.anzbds.com')->group(function () {
+    Route::get('/', "HomeLDGDarkController@index");
+});

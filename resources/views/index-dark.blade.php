@@ -140,8 +140,8 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div class="dots-image"> 
-              <div class="product-selling">
+              <div class="dots-image">
+                <div class="product-selling">
                   Đang mở bán
                 </div>
                 <a href="https://anzbds.com/du-an/8/topaz-town-gem-sky-word">
