@@ -291,8 +291,8 @@
       </section>
       @endsection
 
-      <!-- Section Projects -->
-      @section('projects')
+      <!-- Section gallery -->
+      @section('gallery')
       <section id="thu-vien-du-an-LDG-Sky" class="section-projects section">
         <div class="container">
           <div class="row">
@@ -580,7 +580,7 @@
       @endsection
 
       <!-- Section Team -->
-      @section('utilities-area')
+      @section('apartment design')
       <section id="thiet-ke-can-ho-du-an-LDG-Sky" class="section">
         <div class="container">
           <div class="row">
@@ -604,7 +604,7 @@
                     <a href="#can1pn61" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án LDG-Sky Dĩ An" src="/images/can-1-pn-61-ldg-sky.jpg"> </a>
                   </div>
                 </div>
-                <div class="col-team col-xs-12 col-md-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="col-team col-xs-12 col-md-4 wow fadeIn" data-wow-delay="0.3s">
                   <div class="team-profile">
                     <a href="#thietke-2pn" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án LDG-Sky Dĩ An" src="/images/thiet-ke-can-2-pn-du-an-ldg-sky.jpg"> </a>
                   </div>

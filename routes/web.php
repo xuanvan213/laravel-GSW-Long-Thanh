@@ -17,7 +17,7 @@
 //email contact
 //send mail by dark template
 // Route::get('/', 'HomeLDGDarkController@index');
-Route::get('/', 'HomeLDGController@index');
+Route::get('/', 'HomeTheRiverDarkController@index');
 
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');

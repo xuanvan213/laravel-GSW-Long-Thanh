@@ -292,8 +292,8 @@
       @yield('utilities')
 
 
-      <!-- Section Projects -->
-      @yield('projects')
+      <!-- Section gallery -->
+      @yield('gallery')
 
 
       <!-- Section Clients -->
@@ -303,8 +303,8 @@
     <!-- Section house-template -->
     @yield('house-template')
 
-      <!-- Section utilities-area -->
-      @yield('utilities-area')
+      <!-- Section apartment design -->
+      @yield('apartment design')
 
       <!-- Section Contacts -->
       @yield('contacts')
