@@ -11,6 +11,12 @@ body{
 .loader{
   background: #272727;
 }
+td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #fff;
+}
 
 .navbar.affix{
   background: #212121;
@@ -33,6 +39,7 @@ a.brand:focus{
   text-decoration: none;
   color: #fff;
 }
+
 
 .brand-text{
   color: #868686;
