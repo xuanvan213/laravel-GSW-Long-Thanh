@@ -1,5 +1,5 @@
 
-@extends('layout.master-opalgarden')
+@extends('layout.master-opalgarden-dark')
      <!-- Start revolution slider -->
      @section('revolution-slider')
      <div class="rev_slider_wrapper" id="du-an-opal-garden">
