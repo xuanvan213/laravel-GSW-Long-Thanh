@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="DỰ ÁN Opal Garden">
   <meta name="author" content="Paul">
-  <meta name="keywords" content="Opal Garden, du an Opal Garden, bất động sản Quận 2, căn hộ view sông, căn hộ Opal Garden, dự án căn hộ chung cư, căn hộ quận 2, căn hộ quận 2 view sông, cuộc sống xanh, căn hộ vị trí đắc địa ">
+  <meta name="keywords" content="Opal Garden, du an Opal Garden, bất động sản Thủ Đức, căn hộ view sông, căn hộ Opal Garden, dự án căn hộ chung cư, căn hộ gần Gigamall, căn hộ Thủ Đức view sông, cuộc sống xanh, căn hộ vị trí đắc địa ">
   <meta name="description" content="Opal Garden nằm mặt tiền đường số 20, Ngay bên cạnh trung tâm thương mại GigaMall đường Đường Phạm Văn Đồng chỉ cách cầu Bình Triệu (Cầu Bình Lợi) quận Bình Thạnh 500m. Dự án chung cư đã bàn giao nhà là một trong số hiếm hoi căn hộ cao cấp quận thủ đức. Chuỗi căn hộ Opal Garden, Opal Riverside đường số 23, Opal Boulevard nút giao Phạm Văn Đồng và Tô Ngọc Vân, St Moritz Phạm Văn Đồng khẳng định Đất Xanh là thương hiệu uy tín cho khách hàng đặt niềm tin."/>
   <meta name="author" content="FTC Joint Stock Company">
   <meta name="image" content="/images/logo-opal-garden.png">
@@ -37,6 +37,7 @@
 
   <!-- Styles -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
+  <link href="/css/dark.css" rel="stylesheet" media="screen">
     
   {{-- Google review --}}
     <script type="application/ld+json">
@@ -45,15 +46,15 @@
       "@type": "Product",
       "name": "Opal Garden",
       "image": [
-        "https://theriver.anzbds.com/images/the-river-ban-công-sky-villa-scaled.jpg",
-        "https://theriver.anzbds.com/images/phoi-canh-the-river-thu-thiem.jpg",
-        "https://theriver.anzbds.com/images/phòng-ngủ-1.jpg",
-        "https://theriver.anzbds.com/images/the-river-vườn-cá-nhân.jpg",
-        "https://theriver.anzbds.com/images/The-River-Thu-Thiem-pool-1536x957.png"
+        "https://opalgarden.anzbds.com/images/opal-garden-phoi-canh-tong-the4-big.jpg",
+        "https://opalgarden.anzbds.com/images/opal-garden-tieu-canh-ho-boi.jpg",
+        "https://opalgarden.anzbds.com/images/opal-garden-vi-tri.jpg",
+        "https://opalgarden.anzbds.com/images/opal-garden-gia-tri.PNG",
+        "https://opalgarden.anzbds.com/images/opal-garden-tien-ich.PNG"
        ],
       "description": " Opal Garden nằm mặt tiền đường số 20, Ngay bên cạnh trung tâm thương mại GigaMall đường Đường Phạm Văn Đồng chỉ cách cầu Bình Triệu (Cầu Bình Lợi) quận Bình Thạnh 500m. 
       Dự án chung cư đã bàn giao nhà là một trong số hiếm hoi căn hộ cao cấp quận thủ đức. Chuỗi căn hộ Opal Garden, Opal Riverside đường số 23, Opal Boulevard nút giao Phạm Văn Đồng và Tô Ngọc Vân, St Moritz Phạm Văn Đồng khẳng định Đất Xanh là thương hiệu uy tín cho khách hàng đặt niềm tin.",
-      "sku": "DUAN-THE-RIVER-THU-THIEM",
+      "sku": "DUAN-OPAL-GARDEN-THU-DUC",
       "mpn": "000001",
       "brand": {
         "@type": "Brand",
@@ -128,37 +129,37 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Trang chủ",
-        "item": "https://theriver.anzbds.com/#du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 2,
         "name": "Giới thiệu",
-        "item": "https://theriver.anzbds.com/#gioi-thieu-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#gioi-thieu-du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 3,
         "name": "Tiện ích",
-        "item": "https://theriver.anzbds.com/#tien-ich-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#tien-ich-du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 4,
         "name": "Thư viện",
-        "item": "https://theriver.anzbds.com/#thu-vien-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#thu-vien-du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 5,
         "name": "Căn hộ mẫu",
-        "item": "https://theriver.anzbds.com/#can-ho-mau-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#can-ho-mau-du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 6,
         "name": "Thiết Kế Căn Hộ",
-        "item": "https://theriver.anzbds.com/#thiet-ke-can-ho-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#thiet-ke-can-ho-du-an-opal-garden"
       },{
         "@type": "ListItem",
         "position": 7,
         "name": "Liện hệ",
-        "item": "https://theriver.anzbds.com/#lien-he-du-an-opal-garden"
+        "item": "https://opalgarden.anzbds.com/#lien-he-du-an-opal-garden"
       }]
     }
     </script>
