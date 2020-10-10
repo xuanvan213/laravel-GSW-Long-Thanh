@@ -273,6 +273,11 @@
             </div>
           </div>
         </div>
+        <div id="danh-sach-tien-ich" class="container zoom-anim-dialog mfp-hide">
+          <div class="row">
+            <div class="col-lg-12"><img alt="hình ảnh dự án Opal Skyline Thuận An" class="project-detail-img" src="/images/opal-skyline-list-tien-ich.PNG"></div>
+          </div>
+        </div>
         <div id="tien_ich1" class="container zoom-anim-dialog mfp-hide">
           <div class="row">
             <div class="col-lg-12"><img alt="hình ảnh dự án Opal Skyline Thuận An" class="project-detail-img" src="/images/opal-skyline-ho-boi.jpg"></div>
