@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeTheRiverDarkController extends Controller
+class HomeOpalGardenController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class HomeTheRiverDarkController extends Controller
      */
     public function index()
     {
-        return view('theriver.index-the-river-dark');
+        return view('opalgarden.index-opal-garden');
     }
 
     /**
@@ -80,8 +80,5 @@ class HomeTheRiverDarkController extends Controller
     public function destroy($id)
     {
         //
-    }
-    public function sitemap(){
-        return response()->view('sitemap.sitemap-ldgsky')->header('Content-Type', 'text/xml');
     }
 }

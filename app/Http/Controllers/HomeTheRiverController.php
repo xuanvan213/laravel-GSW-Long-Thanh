@@ -81,4 +81,7 @@ class HomeTheRiverController extends Controller
     {
         //
     }
+    public function sitemap(){
+        return response()->view('sitemap.sitemap-ldgsky')->header('Content-Type', 'text/xml');
+    }
 }
