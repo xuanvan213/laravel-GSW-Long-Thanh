@@ -16,7 +16,7 @@
 
 //email contact
 //send mail by dark template
-Route::get('/', 'HomeOpalSkylineController@index');
+Route::get('/', 'HomeOpalRiversideDarkController@index');
 
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');
@@ -99,4 +99,15 @@ Route::domain('opalskyline.anzbds.com')->group(function () {
 
 Route::domain('dark.opalskyline.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalSkylineDarkController@index");
+});
+
+Route::domain('opalriverside.anzbds.com')->group(function () {
+    Route::get('/', "HomeOpalRiversideController@index");
+    Route::get('/ldg-sky', 'HomeOpalRiversideController@index');
+    Route::get('/ldg-sky-dark', 'HomeOpalRiversideController@index');
+    Route::get('/sitemap.xml', 'HomeOpalRiversideController@sitemap');
+});
+
+Route::domain('dark.opalriverside.anzbds.com')->group(function () {
+    Route::get('/', "HomeOpalRiversideDarkController@index");
 });
