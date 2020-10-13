@@ -69,8 +69,8 @@ Route::domain('dark.ldgsky.anzbds.com')->group(function () {
 
 Route::domain('theriver.anzbds.com')->group(function () {
     Route::get('/', "HomeTheRiverController@index");
-    Route::get('/ldg-sky', 'HomeTheRiverController@index');
-    Route::get('/ldg-sky-dark', 'HomeTheRiverController@index');
+    Route::get('/theriver', 'HomeTheRiverController@index');
+    Route::get('/theriver-dark', 'HomeTheRiverController@index');
     Route::get('/sitemap.xml', 'HomeTheRiverController@sitemap');
 });
 
@@ -80,8 +80,8 @@ Route::domain('dark.theriver.anzbds.com')->group(function () {
 
 Route::domain('opalgarden.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalGardenController@index");
-    Route::get('/ldg-sky', 'HomeOpalGardenController@index');
-    Route::get('/ldg-sky-dark', 'HomeOpalGardenController@index');
+    Route::get('/opal-garden', 'HomeOpalGardenController@index');
+    Route::get('/opal-garden-dark', 'HomeOpalGardenController@index');
     Route::get('/sitemap.xml', 'HomeOpalGardenController@sitemap');
 });
 
@@ -92,8 +92,8 @@ Route::domain('dark.opalgarden.anzbds.com')->group(function () {
 
 Route::domain('opalskyline.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalSkylineController@index");
-    Route::get('/ldg-sky', 'HomeOpalSkylineController@index');
-    Route::get('/ldg-sky-dark', 'HomeOpalSkylineController@index');
+    Route::get('/opal-skyline', 'HomeOpalSkylineController@index');
+    Route::get('/opal-skyline-dark', 'HomeOpalSkylineController@index');
     Route::get('/sitemap.xml', 'HomeOpalSkylineController@sitemap');
 });
 
@@ -103,8 +103,8 @@ Route::domain('dark.opalskyline.anzbds.com')->group(function () {
 
 Route::domain('opalriverside.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalRiversideController@index");
-    Route::get('/ldg-sky', 'HomeOpalRiversideController@index');
-    Route::get('/ldg-sky-dark', 'HomeOpalRiversideController@index');
+    Route::get('/opal-riverside', 'HomeOpalRiversideController@index');
+    Route::get('/opal-riverside-dark', 'HomeOpalRiversideController@index');
     Route::get('/sitemap.xml', 'HomeOpalRiversideController@sitemap');
 });
 
