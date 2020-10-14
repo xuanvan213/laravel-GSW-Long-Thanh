@@ -16,7 +16,6 @@
 
 //email contact
 //send mail by dark template
-Route::get('/', 'HomeOpalRiversideDarkController@index');
 
 Route::get('/contact', 'HomeController@getcontact');
 Route::post('/contact', 'HomeController@sendEmailContacts');

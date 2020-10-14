@@ -52,7 +52,7 @@
         "https://opalskyline.anzbds.com/images/opal-skyline-restaurant.jpg"
        ],
       "description": " Lấy cảm hứng từ vẻ đẹp của những viên đá quý dòng opal, kết hợp ý tưởng kiến tạo một thành phố năng động và hiện đại, Opal Skyline mang vẻ đẹp rực rỡ, thời thượng của một khu đô thị sầm uất trên trục đại lộ Bình Dương. Opal Skyline mang khát vọng hướng lên trời cao, vươn mình mạnh mẽ, thể hiện định vị là tâm điểm tỏa sáng toàn khu vực thành phố Thuận An, niềm tự hào & hãnh diện cho các cư dân sở hữu. ",
-      "sku": "DUAN-OPAL-GARDEN-THUAN-AN",
+      "sku": "DUAN-OPAL-SKYLINE-THUAN-AN",
       "mpn": "000001",
       "brand": {
         "@type": "Brand",
