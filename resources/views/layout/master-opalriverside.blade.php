@@ -45,11 +45,11 @@
       "@type": "Product",
       "name": "Opal Riverside",
       "image": [
-        "https://opalriverside.anzbds.com/images/opal-skyline-slide1.jpg",
-        "https://opalriverside.anzbds.com/images/opal-skyline-ho-boi-view.png",
-        "https://opalriverside.anzbds.com/images/opal-skyline-khu-mua-sam.jpg",
-        "https://opalriverside.anzbds.com/images/opal-skyline-khong-gian-sinh-hoat-chung.jpg",
-        "https://opalriverside.anzbds.com/images/opal-skyline-restaurant.jpg"
+        "https://opalriverside.anzbds.com/images/opal-riverside-tong-the.png",
+        "https://opalriverside.anzbds.com/images/opal-riverside-vuon-bbq_big.jpg",
+        "https://opalriverside.anzbds.com/images/opal-riverside-tong-quan.png",
+        "https://opalriverside.anzbds.com/images/opal-riverside-khu-the-thao-ngoai-troi_big.jpg",
+        "https://opalriverside.anzbds.com/images/opal-riverside-so-do-lien-he-vung.jpg"
        ],
       "description": "Quận Thủ Đức có tốc độ đô thị hóa nhanh chóng với hạ tầng phát triển mạnh. Đi cùng với xu thế đó, các dự án bất động sản trung và cao cấp đã và đang tạo nên cộng đồng dân cư an sinh kết nối với các giá trị thương mại, dịch vụ tiện ích đa dạng. Trong nhóm bất động sản resort có giá trị gia tăng trên từng mét vuông. Khu căn hộ Opal Riverside với lợi thế cạnh sông dài, mở ra thiên đường nghỉ dưỡng lý tưởng.",
       "sku": "DUAN-OPAL-RIVERSIDE-THU-DUC",

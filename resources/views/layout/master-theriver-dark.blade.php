@@ -46,11 +46,11 @@
       "@type": "Product",
       "name": "The River Thủ Thiêm",
       "image": [
-        "https://theriver.anzbds.com/images/ldg-cong-vien-view-ho.jpg",
-        "https://theriver.anzbds.com/images/ldg-tien-ich-noi-khu.jpg",
-        "https://theriver.anzbds.com/images/mat-bang-dien-hinh-tang-5-du-an-can-ho-ldg-sky.jpg",
-        "https://theriver.anzbds.com/images/ldg-ho-boi-chan-may.jpg",
-        "https://theriver.anzbds.com/images/ldg-trung-tam-thuong-mai.jpg"
+        "https://theriver.anzbds.com/images/The-River-Thu-Thiem-river-view-1536x711.jpg",
+        "https://theriver.anzbds.com/images/the-river-tien-ich.jpg",
+        "https://theriver.anzbds.com/images/The-River-Thu-Thiem-pool-1536x957.png",
+        "https://theriver.anzbds.com/images/the-river-vườn-cá-nhân.jpg",
+        "https://theriver.anzbds.com/images/the-river-slide1.jpg"
        ],
       "description": " The River Thủ Thiêm là siêu phẩm mới tại Thủ Thiêm đang được rất nhiều khách hàng VIP quan tâm. 
       Dự án The River Thủ Thiêm của Refico (Chủ đầu tư của căn hộ City Garden Bình Thạnh) hứa hẹn đem đến cho khách hàng rất nhiều giá trị đẳng cấp của đơn vị phát triển bất động sản hàng đầu Việt Nam này.",
