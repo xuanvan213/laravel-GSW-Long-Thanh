@@ -37,7 +37,6 @@
 
   <!-- Styles -->
   <link href="/css/style.css" rel="stylesheet" media="screen">
-    
   {{-- Google review --}}
     <script type="application/ld+json">
     {
@@ -162,7 +161,6 @@
       }]
     }
     </script>
-
 </head>
 <body>
 
@@ -211,7 +209,6 @@
             <a href="#lien-he-du-an-Gem-Sky-World">Liên Hệ</a>
           </li>
         </ul>
-            <a href="{{ url('/logout') }}">Logout</a>
       </nav>
     </div>
 
@@ -248,7 +245,7 @@
 
       <!-- Navigation -->
       <nav class="nav navigation visible-lg">
-        <ul>
+      <ul>
         <li>
             <a  href="#du-an-Gem-Sky-World">Trang Chủ</a>
           </li>
@@ -270,21 +267,7 @@
           <li>
             <a href="#lien-he-du-an-Gem-Sky-World">Liên Hệ</a>
           </li>
-          <li>
-          <a title="" href= "{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                                <i class="icon icon-share-alt"></i> <span class="text"></span></a></li>
-          </li>
         </ul>
-        
       </nav>
       
     </header>
@@ -337,7 +320,7 @@
           </a>
         </div>
         <div class="flex-item">
-        <a href="https://ftcjsc.com">
+          <a href="https://ftcjsc.com">
           <div class="inline-block pull-sm-right"> 2020 &copy; FTCJSC - All Rights Reserved</div>
           </a>
         </div>

@@ -1,5 +1,5 @@
 
-@extends('layout.master-dark')
+@extends('layout.master-gsw-dark')
      <!-- Start revolution slider -->
      @section('revolution-slider')
       <div class="rev_slider_wrapper" id="du-an-Gem-Sky-World">

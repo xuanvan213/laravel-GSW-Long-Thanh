@@ -16,24 +16,26 @@
 
 //email contact
 //send mail by dark template
+Route::get('/admin/project', "AdminController@index");
+Route::get('/admin/form', "AdminContentController@index");
 
-Route::get('/contact', 'HomeController@getcontact');
-Route::post('/contact', 'HomeController@sendEmailContacts');
+Route::get('/contact', 'HomeGSWController@getcontact');
+Route::post('/contact', 'HomeGSWController@sendEmailContacts');
 
 Route::domain('gswlongthanh.anzbds.com')->group(function () {
-    Route::get('/', "HomeController@index"); 
+    Route::get('/', "HomeGSWController@index"); 
 
-    Route::get('/dark', 'HomeDarkController@index');
+    Route::get('/dark', 'HomeGSWDarkController@index');
 
     //send mail by dark template
-    Route::get('/dark/contact', 'HomeDarkController@getcontact');
-    Route::post('/dark/contact', 'HomeDarkController@sendEmailContacts');
-    Route::get('/sitemap.xml', 'HomeController@sitemap');
+    Route::get('/dark/contact', 'HomeGSWDarkController@getcontact');
+    Route::post('/dark/contact', 'HomeGSWDarkController@sendEmailContacts');
+    Route::get('/sitemap.xml', 'HomeGSWController@sitemap');
 
 });
 
 Route::domain('dark.gswlongthanh.anzbds.com')->group(function () {
-    Route::get('/', "HomeDarkController@index");
+    Route::get('/', "HomeGSWDarkController@index");
 });
 
 Route::domain('theorigami.anzbds.com')->group(function () {
@@ -110,3 +112,6 @@ Route::domain('opalriverside.anzbds.com')->group(function () {
 Route::domain('dark.opalriverside.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalRiversideDarkController@index");
 });
+Auth::routes();
+
+Route::get('/admin/project', 'HomeController@index')->name('home');

@@ -7,7 +7,7 @@ use Mail;
 use \Swift_Mailer;
 use \Swift_SmtpTransport;
 
-class HomeDarkController extends Controller
+class HomeGSWDarkController extends Controller
 {
     /**
      * Display a listing of the resource.
