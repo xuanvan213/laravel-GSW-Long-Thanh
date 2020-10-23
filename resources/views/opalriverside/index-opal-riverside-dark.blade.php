@@ -261,7 +261,7 @@
                       <a href="#tien_ich5" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Opal Riverside Thủ Đức" src="/images/opal-riverside-gym.jpg"> </a>
                     </div>
                   </div>
-                  <div class="col-service col-md-6 col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="col-service col-md-6 col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-profile">
                       <a href="#tien_ich6" class="project-item item-shadow popup-with-zoom-anim"><img alt="hình ảnh dự án Opal Riverside Thủ Đức" src="/images/opal-riverside-ho-boi.jpg"> </a>
                     </div>
