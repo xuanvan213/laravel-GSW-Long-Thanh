@@ -407,17 +407,25 @@ div.radio {
 
 /* Uploader */
 div.uploader {
-  width: 190px;
   cursor: pointer;
 }
 
-div.uploader span.action {
+/* div.uploader span.action {
   width: 85px;
   text-align: center;
   text-shadow: #fff 0px 1px 0px;
   background-color: #fff;
   font-size: 11px;
   font-weight: bold;
+} */
+
+.line-before{
+  width: 100%;
+  border: .5px dotted rgb(107, 107, 107);
+}
+
+table{
+  width: 100%;
 }
 
 div.uploader span.filename {
@@ -555,11 +563,16 @@ div.uploader {
 }
 
 div.uploader span.action {
-  float: left;
   display: inline;
-  padding: 2px 0px;
+  padding: 2px 5px;
   overflow: hidden;
   cursor: pointer;
+  background: #c8f371;
+  margin: 3px 3px;
+  text-align: center;
+}
+.control-group{
+  display: inline;
 }
 
 div.uploader span.filename {
@@ -571,6 +584,8 @@ div.uploader span.filename {
   white-space: nowrap;
   cursor: default;
   position:relative;
+  font-size: 14px;
+  width: 45px;
 }
 
 div.uploader input {
