@@ -17,18 +17,24 @@
 					<div class="widget-content nopadding">
 
 						<!-- BEGIN USER FORM -->
-						<form action="{{asset('admin/project')}}" method="post" class="form-horizontal" enctype="multipart/form-data">
+						<form action="{{asset('admin/addproject')}}" method="POST" class="form-horizontal" enctype="multipart/form-data">
 							@csrf
 							<div class="control-group">
 								<label class="control-label">Nhập Tên:</label>
 								<div class="controls">
-									<input type="text" class="span11" placeholder="Tên Dự Án" name="project-name" /> *
+									<input type="text" class="span11" placeholder="Tên Dự Án" name="project_name" /> *
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label">Nhập Tiêu Đề:</label>
+								<div class="controls">
+									<input type="text" class="span11" placeholder="Tên Dự Án" name="title" /> *
 								</div>
 							</div>
 							<div class="control-group">
 								<label class="control-label">Nhập Url:</label>
 								<div class="controls">
-									<input type="text" class="span11" placeholder="Nhập URL" name="url-project" /> *
+									<input type="text" class="span11" placeholder="Nhập URL" name="url_project" /> *
 								</div>
 							</div>
 							<div class="control-group">
@@ -45,28 +51,29 @@
 										</textarea>									  
 									</div>
 							</div>
-								<div class="control-group">
-									<label class="control-label">Chọn Logo :</label>
-									<div id="imagePre">
-									</div>
-									<div class="controls">
-										<input type="file" name="logoProject" id="logoProject" onchange="return fileValidation()" >										
-									</div>
+							<div class="control-group">
+								<label class="control-label">Chọn Ảnh Cho Giới Thiệu :</label>
+								<div id="imgAbout"></div>
+								<div class="controls">
+									<input type="file" name="imageAbouts" id="imageAbouts" onchange="return setImageAbout()">										
 								</div>
-								<div class="control-group">
-									<label class="control-label">Chọn Ảnh Cho Giới Thiệu :</label>
-									<div id="imgAbout"></div>
-									<div class="controls">
-										<input type="file" name="imageAbouts" id="imageAbouts" onchange="return setImageAbout()">										
-									</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label">Chọn Logo :</label>
+								<div id="imagePre">
 								</div>
+								<div class="controls">
+									<input type="file" name="logoProject" id="logoProject" onchange="return fileValidation()" >										
+								</div>
+							</div>								
 	
 							<div class="control-group">
 								<label class="control-label">Chọn Giao Diện :</label>
 								<div class="controls">
-									<select name="reg_id" id="temp-option" onchange="return getValueOption()">
-											<option value="1" selected>Giao Diện 1</option>
-											<option value="2">Giao Diện 2</option>
+									<select name="template_id" id="temp-option" onchange="return getValueOption()">
+											@foreach($templates as $temp)
+												<option value="{{ $temp['id'] }}" selected>{{ $temp['template_name'] }}</option>
+											@endforeach
 									</select> *
 								</div>
 							</div>
@@ -291,11 +298,12 @@
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label">Nhập Giá Khởi Điểm</label>
+									<label class="control-label">Nhập Giá/m2 </label>
 									<div class="controls">
 										<input type="text" class="span11" placeholder="Giá Khởi Điểm" name="startingPrice2" /> *
 									</div>
 								</div>
+								<!-- sanh can ho -->
 								<div class="control-group">
 									<label class="control-label">Sảnh Căn Hộ:</label>
 									<div class="controls">
@@ -318,6 +326,32 @@
 									<label class="control-label">Nhập Chức Năng Căn Hộ</label>
 									<div class="controls">
 										<input type="text" class="span11" placeholder="Chức năng căn hộ" name="functionalApartments" /> *
+									</div>
+								</div>
+
+								<!-- Sanh Van phong -->
+								<div class="control-group">
+									<label class="control-label">Sảnh Văn Phòng:</label>
+									<div class="controls">
+										<input type="file" name="officeLobby12" id="officeLobby12" >										
+									</div>
+									<div class="controls">
+										<input type="file" name="officeLobby22" id="officeLobby22" >
+									</div>
+									<div class="controls">
+										<input type="file" name="officeLobby32" id="officeLobby32">
+									</div>
+									<div class="controls">
+										<input type="file" name="officeLobby42" id="officeLobby42">
+									</div>
+									<div class="controls">
+										<input type="file" name="officeLobby52" id="officeLobby52" >
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">Tiện Ích Nội Khu</label>
+									<div class="controls">
+										<input type="text" class="span11" placeholder="Chức năng căn hộ" name="internalUtility" /> *
 									</div>
 								</div>
 

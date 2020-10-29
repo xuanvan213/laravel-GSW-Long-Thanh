@@ -16,11 +16,13 @@ class CreateTableProjects extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
+            $table->string('name');
             $table->string('title');
             $table->string('url');
-            $table->string('keywords');
+            $table->longText('keywords');
+            $table->longText('description');
             $table->string('logo');
-            $table->integer('id_template');
+            $table->integer('template_id');
         });
     }
 

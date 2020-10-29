@@ -19,24 +19,27 @@
 							<thead>
 							<tr>
 								<th>stt</th>
-								<th>Tên Tuor</th>
-								<th>Điểm Xuất Phát</th>
-								<th>thời gian</th>
-								<th>thời gian bắt đầu</th>
-								<th>thời gian kết thúc</th>
-								<th>chương trình tour</th>
-								<th>hãng</th>
-								<th>phương tiện</th>
-								<th>tỉnh</th>
-								<th>điểm đến</th>
-								<th>giá</th>
+								<th>Tên Dự Án</th>
+								<th>Url</th>
+								<th>Tiêu đề</th>
+								<th>Từ Khóa</th>
+								<th>Logo</th>
+								<th>Template</th>
 							</tr>
 							</thead>
 							<tbody>
-								
-								</td>
-							</tr>		
-						</tbody>
+								@foreach($project as $value)
+								<tr>
+									<td>{{ $value['name'] }}</td>
+									<td>{{ $value['url'] }}</td>
+									<td>{{ $value['title'] }}</td>
+									<td>{{ $value['keywords'] }}</td>
+									<td>{{ $value['description'] }}</td>								
+									<td><img alt="{{ $value['title'] }}" src="{{ asset('images/'.$value['logo']) }}" style="width: 317px; height: 317px;"/></td>
+									<td>{{ $value['template_id']}}</td>
+								</tr>								
+								@endforeach
+							</tbody>
 						</table>
 						<ul class="pagination">
 							

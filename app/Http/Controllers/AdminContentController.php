@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contents;
+use App\Media;
+use App\Menu;
+use App\Projects;
+use App\Templates;
 
 class AdminContentController extends Controller
 {
@@ -22,7 +27,8 @@ class AdminContentController extends Controller
      */
     public function index()
     {
-        return view('admin.form_content');
+        $temp = Templates::all();
+        return view('admin.form_content', ['templates'=>$temp]);
     }
 
     /**
@@ -42,8 +48,28 @@ class AdminContentController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        //
+    {        
+        $project = new Projects;
+        $content = new Contents;
+        $med = new Media;
+        $project->name = $request->project_name;
+        $project->url = $request->url_project;
+        $project->title = $request->title;
+        $project->keywords = $request->keyword;
+        $project->description = $request->abouts;
+        $file_name = $request->file('logoProject')->getClientOriginalName();
+        $request->file('logoProject')->move('images/',$file_name);
+        $project->logo = $file_name;
+        $project->template_id = $request->template_id;
+        $project->save();
+
+        if($request->template_id == 1){
+            
+        }
+        
+
+        $pro = Projects::all();
+        return view("admin.index", ['project'=>$pro]);
     }
 
     /**

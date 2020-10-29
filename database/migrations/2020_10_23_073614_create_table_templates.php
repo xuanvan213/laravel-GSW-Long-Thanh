@@ -17,7 +17,7 @@ class CreateTableTemplates extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('template_name');
-            $table->string('img_template');
+            $table->string('url_interface');
         });
     }
 

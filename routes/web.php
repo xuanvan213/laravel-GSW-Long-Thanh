@@ -112,6 +112,9 @@ Route::domain('opalriverside.anzbds.com')->group(function () {
 Route::domain('dark.opalriverside.anzbds.com')->group(function () {
     Route::get('/', "HomeOpalRiversideDarkController@index");
 });
-Auth::routes();
 
-Route::get('/admin/project', 'HomeController@index')->name('home');
+//Admin
+Auth::routes();
+Route::get('/admin/project', 'AdminController@index')->name('home');
+Route::get('/admin/form', 'AdminContentController@index');
+Route::resource('/admin/addproject', 'AdminContentController');

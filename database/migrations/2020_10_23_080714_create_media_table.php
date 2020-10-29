@@ -17,7 +17,7 @@ class CreateMediaTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('img_src');
-            $table->integer('id_content');
+            $table->integer('content_id');
         });
     }
 

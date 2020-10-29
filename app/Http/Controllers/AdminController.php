@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contents;
+use App\Media;
+use App\Menu;
+use App\Projects;
+use App\Templates;
 
 class AdminController extends Controller
 {
@@ -24,7 +29,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
+        $pro = Projects::all();
+
+        return view('admin.index',['project'=>$pro]);
     }
 
     /**
