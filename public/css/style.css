@@ -978,6 +978,10 @@ td, th {
   padding: 8px;
 }
 
+.ip-images{
+  background: rgb(151, 151, 151);
+}
+
 .product-selling{
   color: #fff;
   background-color: red;

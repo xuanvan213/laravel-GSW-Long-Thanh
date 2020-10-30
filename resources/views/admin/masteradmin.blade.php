@@ -28,26 +28,26 @@
 		}
 	</style>
 	<script>
-function fileValidation(){
-var fileInput = document.getElementById('fileUpload');
-var filePath = fileInput.value;//lấy giá trị input theo id
-var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;//các tập tin cho phép
-//Kiểm tra định dạng
-if(!allowedExtensions.exec(filePath)){
-alert('Vui lòng upload các file có định dạng: .jpeg/.jpg/.png/.gif only.');
-fileInput.value = '';
-return false;
-}else{
-//Image preview
-if (fileInput.files && fileInput.files[0]) {
-var reader = new FileReader();
-reader.onload = function(e) {
-document.getElementById('fileUpload').innerHTML = '<img style="width:700px;height:400px;" src="'+e.target.result+'"/>';
-};
-reader.readAsDataURL(fileInput.files[0]);
-}
-}
-}
+	function fileValidation(){
+		var fileInput = document.getElementById('slide1');
+		var filePath = fileInput.value;//lấy giá trị input theo id
+		var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;//các tập tin cho phép
+		//Kiểm tra định dạng
+		if(!allowedExtensions.exec(filePath)){
+			alert('Vui lòng upload các file có định dạng: .jpeg/.jpg/.png/.gif only.');
+			fileInput.value = '';
+			return false;
+		}else{
+			//Image preview
+			if (fileInput.files && fileInput.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function(e) {
+				document.getElementById('img-slide1').innerHTML = '<img style="width:266px;height:266px;" src="'+e.target.result+'"/>';
+				};
+				reader.readAsDataURL(fileInput.files[0]);
+			}
+		}
+	}
 </script>
 </head>
 <body>

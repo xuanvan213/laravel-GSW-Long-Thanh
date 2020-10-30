@@ -22,7 +22,7 @@ class AdminContentController extends Controller
      */
     public function index()
     {
-        return view('admin.form_content');
+        return view('admin.form_moritz');
     }
 
     /**
