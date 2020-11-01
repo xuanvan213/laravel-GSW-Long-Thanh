@@ -3,28 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Abouts;
-use App\Config;
-use App\ConfigTypes;
-use App\Gallery;
-use App\Menu;
-use App\HouseTemplate;
-use App\Project;
 use App\Slider;
-use App\StatusProject;
-use App\Utilities;
 
-class AdminContentController extends Controller
+class SliderController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     /**
      * Display a listing of the resource.
      *
@@ -32,7 +14,8 @@ class AdminContentController extends Controller
      */
     public function index()
     {
-        return view('admin.form_gsw');
+        $slider = Slider::all();
+        return view('admin.form_edit_slider_gsw', ['slider'=>$slider]);
     }
 
     /**
@@ -53,19 +36,7 @@ class AdminContentController extends Controller
      */
     public function store(Request $request)
     {
-        $slider = new Slider;
-        $abouts = new Abouts;
-        $configs = new Configs;
-        $configTypes = new ConfigTypes;
-        $gallery = new Gallery;
-        $houseTemplate = new HouseTemplate;
-        $menu = new Menu;
-        $project = new Project;
-        $statusProject = new StatusProject;
-        $utilities = new Utilities;
-
-        $slider->image = $request->slide1;
-        
+        //
     }
 
     /**
@@ -99,7 +70,19 @@ class AdminContentController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $slider = Slider::find($id);
+        $fl = 'slide'.$slider->id; 
+        if($request->hasFile($fl))
+        {             
+            $file_name = $request->file($fl)->getClientOriginalName();
+            $request->file($fl)->move('images/', $file_name);
+            $slider->image = $file_name;      
+        }  
+        $slider->url_button = $request->url_button;
+        $slider->text = $request->text;
+        $slider->save();
+        $sliders = Slider::all();
+        return view('admin.form_edit_slider_gsw', ['slider'=>$sliders]);
     }
 
     /**

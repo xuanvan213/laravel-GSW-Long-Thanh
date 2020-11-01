@@ -116,3 +116,10 @@ Auth::routes();
 
 Route::get('/admin/project', 'HomeController@index')->name('home');
 Route::get('/admin/form', 'AdminContentController@index');
+Route::resource('/admin/edit-slider', 'SliderController');
+
+// Route::get('/admin/edit-abouts', 'AdminContentController@index');
+// Route::get('/admin/edit-utilities', 'AdminContentController@index');
+// Route::get('/admin/edit-housetemplate', 'AdminContentController@index');
+// Route::get('/admin/edit-gallery', 'AdminContentController@index');
+// Route::get('/admin/edit-progress', 'AdminContentController@index');

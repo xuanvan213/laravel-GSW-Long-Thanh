@@ -112,7 +112,7 @@
 		<li><a href="{{ url('/admin/project')}}"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
 
 		<li> <a href="{{ url('/admin/form')}}"><i class="icon icon-th-list"></i> <span>Add New Project</span></a></li>
-		<li> <a href="{{ url('/admin/form')}}"><i class="icon icon-th-list"></i> <span>Manufactures</span></a></li>
+		<li> <a href="{{ url('/admin/edit-slider')}}"><i class="icon icon-th-list"></i> <span>Edit Slider</span></a></li>
 	</ul>
 </div>
 @yield('noidung')
@@ -120,7 +120,11 @@
 
 <!--Footer-part-->
 <div class="row-fluid">
-	<div id="footer" class="span12"> 2017 &copy; TDC - Lập trình web 1</div>
+	<div id="footer" class="span12">
+		<a href="https://ftcjsc.com">
+        	<div class="inline-block pull-sm-right"> 2020 &copy; FTCJSC - All Rights Reserved</div>
+        </a>
+	</div>
 </div>
 <!--end-Footer-part-->
 <script>

@@ -23,6 +23,12 @@ class ConfigTypesTableSeeder extends Seeder
             ],
             [
                 'type_name'=>'textarea'
+            ],
+            [
+                'type_name'=>'h4'
+            ],
+            [
+                'type_name'=>'strong'
             ]
         ]);
     }

@@ -3,28 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Abouts;
-use App\Config;
-use App\ConfigTypes;
-use App\Gallery;
-use App\Menu;
-use App\HouseTemplate;
-use App\Project;
-use App\Slider;
-use App\StatusProject;
-use App\Utilities;
 
-class AdminContentController extends Controller
+class GalleryController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     /**
      * Display a listing of the resource.
      *
@@ -32,7 +13,7 @@ class AdminContentController extends Controller
      */
     public function index()
     {
-        return view('admin.form_gsw');
+        //
     }
 
     /**
@@ -53,19 +34,7 @@ class AdminContentController extends Controller
      */
     public function store(Request $request)
     {
-        $slider = new Slider;
-        $abouts = new Abouts;
-        $configs = new Configs;
-        $configTypes = new ConfigTypes;
-        $gallery = new Gallery;
-        $houseTemplate = new HouseTemplate;
-        $menu = new Menu;
-        $project = new Project;
-        $statusProject = new StatusProject;
-        $utilities = new Utilities;
-
-        $slider->image = $request->slide1;
-        
+        //
     }
 
     /**

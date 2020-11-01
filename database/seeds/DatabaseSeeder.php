@@ -14,7 +14,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ProjectsTableSeeder::class,
             MenuTableSeeder::class,
-            ConfigTypesTableSeeder::class
+            ConfigTypesTableSeeder::class,
+            ConfigTableSeeder::class,
+            SliderTableSeeder::class
             ]);
     }
 }
