@@ -17,7 +17,7 @@
 					<div class="widget-content nopadding">
 
 						<!-- BEGIN USER FORM -->
-						<form action="{{asset('admin/project')}}" method="post" class="form-horizontal" enctype="multipart/form-data">
+						<form action="{{asset('admin/form')}}" method="post" class="form-horizontal" enctype="multipart/form-data">
 							@csrf
 							<div class="control-group">
 								<label class="control-label">Tên Dự Án :</label>

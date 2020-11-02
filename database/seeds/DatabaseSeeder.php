@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
             ProjectsTableSeeder::class,
             MenuTableSeeder::class,
             ConfigTypesTableSeeder::class,
-            ConfigTableSeeder::class,
+            ConfigsTableSeeder::class,
             SliderTableSeeder::class
             ]);
     }

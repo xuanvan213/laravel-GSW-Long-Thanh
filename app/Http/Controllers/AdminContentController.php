@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Abouts;
-use App\Config;
+use App\Configs;
 use App\ConfigTypes;
 use App\Gallery;
 use App\Menu;
@@ -65,7 +66,43 @@ class AdminContentController extends Controller
         $utilities = new Utilities;
 
         $slider->image = $request->slide1;
+        $file = resource_path('views\admin\form_gsw.blade.php');
+        $destination = resource_path('views\admin\test.blade.php');
+        // Storage::copy($file, $destination);
+        $src = resource_path('views\admin'); 
+      
+        $dst = resource_path('views\test'); 
         
+        
+        function custom_copy($src, $dst) {  
+  
+            // open the source directory 
+            $dir = opendir($src);  
+          
+            // Make the destination directory if not exist 
+            @mkdir($dst);  
+          
+            // Loop through the files in source directory 
+            while( $file = readdir($dir) ) {  
+          
+                if (( $file != '.' ) && ( $file != '..' )) {  
+                    if ( is_dir($src . '/' . $file) )  
+                    {  
+          
+                        // Recursively calling custom copy function 
+                        // for sub directory  
+                        custom_copy($src . '/' . $file, $dst . '/' . $file);  
+          
+                    }  
+                    else {  
+                        copy($src . '/' . $file, $dst . '/' . $file);  
+                    }  
+                }  
+            }  
+          
+            closedir($dir); 
+        }  
+        custom_copy($src, $dst);
     }
 
     /**
@@ -112,4 +149,6 @@ class AdminContentController extends Controller
     {
         //
     }
+      
+    
 }
