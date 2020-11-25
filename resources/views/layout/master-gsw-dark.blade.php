@@ -321,8 +321,8 @@
           </a>
         </div>
         <div class="flex-item">
-          <a href="https://ftcjsc.com">
-          <div class="inline-block pull-sm-right"> 2020 &copy; FTCJSC - All Rights Reserved</div>
+          <a href="https://anzbds.com">
+          <div class="inline-block pull-sm-right"> 2020 &copy; anzbds - All Rights Reserved</div>
           </a>
         </div>
       </div>
